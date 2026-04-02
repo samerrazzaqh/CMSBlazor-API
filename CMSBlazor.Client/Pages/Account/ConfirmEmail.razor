@@ -1,0 +1,53 @@
+﻿@page "/confirmemail/{Email}"
+
+
+<MudContainer Style="padding-top:inherit;" MaxWidth="MaxWidth.Large">
+
+
+    <MudGrid>
+        <MudItem xs="12" sm="12">
+            <MudPaper Class="pa-4 mud-theme-primary">
+                <MudText Align="Align.Center" Typo="Typo.h4">Confirm your Email</MudText>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+
+
+    <EditForm Model="@ConfirmEmailViewModel" OnValidSubmit="HandleConfirmEmail">
+        <DataAnnotationsValidator />
+        <MudGrid>
+            <MudItem xs="12" sm="7">
+                <MudCard>
+                    <MudCardContent>
+                        <MudTextField Label="Token From Email"
+                                      @bind-Value="ConfirmEmailViewModel.TokenFromEmail" For="@(() => ConfirmEmailViewModel.TokenFromEmail)" />
+
+                        @*<MudTextField Label="EmailOrUserName"
+                            @bind-Value="ConfirmEmailViewModel.EmailOrUserName" For="@(() => ConfirmEmailViewModel.EmailOrUserName)" />*@
+
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Submit</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" sm="5">
+                <MudPaper Class="pa-4 mud-height-full">
+                    <MudText Typo="Typo.subtitle2">Validation Summary</MudText>
+                    @if (ShowMessage)
+                    {
+                        <MudAlert Severity="Severity.Error">@Message</MudAlert>
+                    }
+                    else
+                    {
+                        <MudText Color="@Color.Error">
+                            <ValidationSummary />
+                        </MudText>
+                    }
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+    </EditForm>
+
+
+</MudContainer>

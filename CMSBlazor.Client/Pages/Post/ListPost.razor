@@ -1,0 +1,126 @@
+﻿@page "/listposts"
+@layout MainLayout
+@attribute [Authorize]
+
+
+<PageTitle>Posts</PageTitle>
+<MudOverlay @bind-Visible="isVisible" DarkBackground="true" AutoClose="true">
+    <MudProgressCircular Color="Color.Primary" Size="Size.Medium" Indeterminate="true" />
+</MudOverlay>
+@{
+    if (_SuperAdmin != null || _Admin != null)
+    {
+        <MudContainer Style="padding-top:inherit;" MaxWidth="MaxWidth.Large">
+
+            <MudGrid>
+                <MudItem xs="12" sm="12">
+                    <MudPaper Class="pa-4 mud-theme-primary">
+                        <MudText Align="Align.Center" Typo="Typo.h4">Posts</MudText>
+                    </MudPaper>
+                </MudItem>
+            </MudGrid>
+
+
+            <MudContainer Style="padding-top:10px;" MaxWidth="MaxWidth.Large">
+                @*========================================================*@
+                <MudPaper Style="background-color:transparent; padding-bottom:10px;" Class="d-flex justify-start flex-grow-1 gap-4" Elevation="0">
+                    <MudButtonGroup Color="Color.Primary" Size="Size.Small" Variant="Variant.Outlined">
+                        <MudButton Disabled="@_policyCreate" OnClick="@((e) => OpenDialogCreate(maxWidth))">Create Post</MudButton>
+                    </MudButtonGroup>
+                </MudPaper>
+                @*========================================================*@
+
+
+
+                <MudGrid>
+                    <MudItem xs="12" sm="12" md="12">
+
+                        @if (PostViewModels == null)
+                        {
+                            <MudPaper Class="pa-4 ma-2" Elevation="0">
+                                <MudText Typo="Typo.h5">Not Found Item</MudText>
+                            </MudPaper>
+                        }
+                        else
+                        {
+
+                            <MudDataGrid HorizontalScrollbar="false" Filterable="true" QuickFilter="@_quickFilter" Bordered="true"
+                                         Outlined="true" T="PostViewModel" Items="@PostViewModels" SortMode="@_sortMode">
+
+                                <ToolBarContent>
+                                    <MudSpacer />
+                                    <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                                                  AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+                                </ToolBarContent>
+
+
+                                <Columns>
+                                    <PropertyColumn Property="x => x!.Title" />
+                                    <PropertyColumn Property="x => x!.PostId" Title="PostId" />
+                                    <PropertyColumn Property="x => x!.Auther" Title="Auther" />
+                                    <PropertyColumn Property="x => x!.CatName" Title="Category" />
+                                    <PropertyColumn Property="x => x!.IsPublish" Title="IsPublish" />
+
+                                    <TemplateColumn StickyRight="false">
+                                        <CellTemplate>
+                                            <MudStack Row>
+                                                <MudIconButton Disabled="@_policyEdit" OnClick="@((e) => OpenDialogEdite(maxWidth,@context.Item!))" Icon="@Icons.Material.Filled.Edit" Variant="Variant.Outlined" Color="Color.Info" Size="Size.Medium" />
+                                                <MudIconButton Disabled="@_policyDelete" OnClick="@((e) => OpenDialogDelete(@context.Item!))" Icon="@Icons.Material.Filled.Delete" Variant="Variant.Outlined" Color="Color.Error" Size="Size.Medium" />
+                                            </MudStack>
+                                        </CellTemplate>
+                                    </TemplateColumn>
+                                </Columns>
+
+                                <PagerContent>
+                                    <MudDataGridPager T="PostViewModel" />
+                                </PagerContent>
+
+                            </MudDataGrid>
+
+
+                            <div style="margin-top:25px;" class="d-flex flex-column align-center">
+
+                                <MudStack Row="true">
+                                    <MudPaper Class="pa-0">
+
+                                        @if (num < PostsCount)
+                                        {
+                                            <MudButton OnClick="@GetMorePost" Disabled="@isVisiblebtn" Variant="Variant.Filled" Color="Color.Primary">
+                                                @if (isVisiblebtn)
+                                                {
+                                                    <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true" />
+                                                    <MudText Class="ms-2">Loading ...</MudText>
+                                                }
+                                                else
+                                                {
+                                                    <MudText>Load More</MudText>
+                                                }
+                                            </MudButton>
+                                        }
+
+
+                                    </MudPaper>
+                                    <MudText>
+                                        @num of @PostsCount
+                                    </MudText>
+                                </MudStack>
+
+
+                            </div>
+
+                        }
+                    </MudItem>
+
+                </MudGrid>
+
+
+
+
+
+            </MudContainer>
+
+        </MudContainer>
+    }
+}
+
+

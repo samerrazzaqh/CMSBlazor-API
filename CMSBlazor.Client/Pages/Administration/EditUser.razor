@@ -1,0 +1,149 @@
+﻿@page "/edituser/{Id}"
+@layout MainLayout
+@attribute [Authorize]
+
+
+<PageTitle>Edit User</PageTitle>
+
+@{
+    if (_SuperAdmin != null || _Admin != null)
+    {
+        if (_policyEdit == true)
+        {
+            <MudContainer Style="padding-top:inherit;" MaxWidth="MaxWidth.Large">
+
+                <MudGrid>
+                    <MudItem xs="12" sm="12">
+                        <MudPaper Class="pa-4 mud-theme-primary">
+                            <MudText Align="Align.Center" Typo="Typo.h4">@EditUserViewModel!.UserName</MudText>
+                        </MudPaper>
+                    </MudItem>
+                </MudGrid>
+
+
+                <MudContainer Style="padding-top:10px;" MaxWidth="MaxWidth.Large">
+
+
+
+
+                    <MudGrid>
+                        <MudItem xs="12" sm="12" md="12">
+
+
+
+
+                            <EditForm Model="@EditUserViewModel" OnValidSubmit="HandleEditUser">
+                                <DataAnnotationsValidator />
+                                <MudGrid>
+                                    <MudItem xs="12" sm="12">
+                                        <MudCard>
+                                            <MudCardContent>
+                                                <MudPaper Style="margin-bottom:10px;" Class="pa-4 mud-height-full">
+
+                                                    @*<MudTextField Disabled="true" Label="UserId"
+                                                        @bind-Value="EditUserViewModel!.Id" For="@(() => EditUserViewModel!.Id)" />*@
+                                                    @*<MudTextField Disabled="true" Label="UserName"
+                                                                  @bind-Value="EditUserViewModel!.UserName" For="@(() => EditUserViewModel!.UserName)" />
+                                                    <MudTextField Disabled="true" Label="Email"
+                                                                  @bind-Value="EditUserViewModel!.Email" For="@(() => EditUserViewModel!.Email)" />*@
+
+                                                    <MudCheckBox @bind-Value="EditUserViewModel!.Block" Color="Color.Primary">Block @EditUserViewModel!.UserName</MudCheckBox>
+
+
+                                                    <MudCardActions>
+                                                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Submit</MudButton>
+                                                    </MudCardActions>
+                                                </MudPaper>
+
+
+
+                                                <MudGrid>
+                                                    <MudItem xs="12" sm="6">
+                                                        <MudPaper Style="margin-bottom:10px;" Class="pa-1 mud-theme-primary">
+                                                            <MudText Align="Align.Center" Typo="Typo.h6">
+                                                                User Claims
+                                                            </MudText>
+                                                        </MudPaper>
+
+                                                        <MudPaper Style="padding:10px;" Elevation="5" Height="200px">
+                                                            @if (EditUserViewModel!.Claims == null)
+                                                            {
+                                                                <MudSkeleton Animation="Animation.False" />
+                                                            }
+                                                            else
+                                                            {
+
+                                                                @foreach (var Claims in EditUserViewModel.Claims.ToList())
+                                                                {
+                                                                    <MudText Typo="Typo.h6" Align="Align.Start">@Claims</MudText>
+                                                                    <hr />
+                                                                }
+                                                            }
+
+                                                        </MudPaper>
+                                                        <MudButton OnClick="@((e) => AddorRemoveClaim(maxWidth,EditUserViewModel!))" Style="margin-top:10px;" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto pa-2">Manage Claims</MudButton>
+                                                    </MudItem>
+
+
+                                                    <MudItem xs="12" sm="6">
+                                                        <MudPaper Style="margin-bottom:10px;" Class="pa-1 mud-theme-primary">
+                                                            <MudText Align="Align.Center" Typo="Typo.h6">
+                                                                User Roles
+                                                            </MudText>
+                                                        </MudPaper>
+
+                                                        <MudPaper Style="padding:10px;" Elevation="5" Height="200px">
+                                                            @if (EditUserViewModel!.Roles == null)
+                                                            {
+                                                                <MudSkeleton Animation="Animation.False" />
+                                                            }
+                                                            else
+                                                            {
+
+                                                                @foreach (var Roles in EditUserViewModel.Roles.ToList())
+                                                                {
+                                                                    <MudText Typo="Typo.h6" Align="Align.Start">@Roles</MudText>
+                                                                    <hr />
+                                                                }
+                                                            }
+
+                                                        </MudPaper>
+                                                        <MudButton OnClick="@((e) => AddorRemoveRole(maxWidth,EditUserViewModel!))" Style="margin-top:10px;" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto pa-2">Manage Role</MudButton>
+                                                    </MudItem>
+
+                                                </MudGrid>
+
+
+
+
+
+
+
+                                            </MudCardContent>
+                                        </MudCard>
+                                    </MudItem>
+
+                                </MudGrid>
+                            </EditForm>
+
+
+
+
+
+                        </MudItem>
+
+                    </MudGrid>
+
+
+
+
+
+                </MudContainer>
+
+            </MudContainer>
+        }
+    }
+}
+
+
+

@@ -1,0 +1,47 @@
+﻿@page "/sendconfirmationemail"
+
+<MudContainer Style="padding-top:inherit;" MaxWidth="MaxWidth.Large">
+    <MudGrid>
+        <MudItem xs="12" sm="12">
+            <MudPaper Class="pa-4 mud-theme-primary">
+                <MudText Align="Align.Center" Typo="Typo.h4">Send Confirmation</MudText>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+
+
+    <EditForm Model="@SendTokenEmail" OnValidSubmit="HandleSendConfirmEmail">
+        <DataAnnotationsValidator />
+        <MudGrid>
+            <MudItem xs="12" sm="7">
+                <MudCard>
+                    <MudCardContent>
+
+                        <MudTextField Label="Email"
+                                      @bind-Value="SendTokenEmail.Email" For="@(() => SendTokenEmail.Email)" />
+
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Submit</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" sm="5">
+                <MudPaper Class="pa-4 mud-height-full">
+                    <MudText Typo="Typo.subtitle2">Validation Summary</MudText>
+                    @if (ShowMessage)
+                    {
+                        <MudAlert Severity="Severity.Error">@Message</MudAlert>
+                    }
+                    else
+                    {
+                        <MudText Color="@Color.Error">
+                            <ValidationSummary />
+                        </MudText>
+                    }
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+    </EditForm>
+</MudContainer>
+  

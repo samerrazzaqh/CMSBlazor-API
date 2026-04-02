@@ -1,0 +1,123 @@
+﻿@inject ISnackbar SnackbarService
+<MudMenu MaxHeight="200" Label="@ReComentsViewModel!.numberlikesReComment.ToString()">
+    @{
+        if (LikeReComments == null)
+        {
+        }
+        else
+        {
+            bool isEmpty = LikeReComments.Any();
+            if (isEmpty != false)
+            {
+                foreach (var LikeReComments in LikeReComments.Take(1))
+                {
+                    <MudMenuItem>
+                        <MudStack Row="true">
+                            @{
+                                string path = $"{CMSConstant.BaseApiAddress+LikeReComments.UrlImageAuther}";
+                                <MudAvatar Style="width:30px; height:30px;" Color="Color.Secondary">
+                                    <MudImage Src="@path"></MudImage>
+                                </MudAvatar>
+                            }
+                            <MudText Typo="Typo.body1">@LikeReComments.Auther</MudText>
+                        </MudStack>
+                    </MudMenuItem>
+                }
+
+            }
+        }
+        <MudMenuItem OnClick="@((e) => LikesReCommentGetMore())">Load More</MudMenuItem>
+    }
+
+</MudMenu>
+
+@{
+    bool isEmpty = LikeReComments.Any();
+    bool isLike = true;
+    if (isEmpty != false)
+    {
+        isEmpty = true;
+        foreach (var LikeReComments in LikeReComments)
+        {
+
+            if (LikeReComments.UserId == localStorageModel!.UserId)
+            {
+                isLike = true;
+                break;
+            }
+            else
+            {
+                isLike = false;
+            }
+        }
+    }
+    else
+    {
+        isEmpty = false;
+    }
+
+
+    if (isLike == true && isEmpty == true)
+    {
+        <MudIconButton OnClick="@((e) => AddLikesReComment(InfoReComments!))" Icon="@Favorite" Color="Color.Error" />
+    }
+    else if (isLike == false || isEmpty == false)
+    {
+        <MudIconButton OnClick="@((e) => AddLikesReComment(InfoReComments!))" Icon="@FavoriteBorder" Color="Color.Error" />
+    }
+
+}
+
+
+
+
+
+@code {
+
+    private void LikesReCommentGetMore()
+    {
+        numUserLike += 1000000;
+        SnackbarService.Add(
+
+        @<div>
+            <ul>
+                @if (LikeReComments == null)
+                {
+                }
+                else
+                {
+                    bool isEmpty = LikeReComments.Any();
+                    if (isEmpty != false)
+                    {
+                        foreach (var LikeReComments in LikeReComments.Take(numUserLike))
+                        {
+                            <MudStack Row="true">
+                                @{
+                                    string path = $"{CMSConstant.BaseApiAddress+LikeReComments.UrlImageAuther}";
+                                    <MudAvatar Style="width:30px; height:30px;" Color="Color.Secondary">
+                                        <MudImage Src="@path"></MudImage>
+                                    </MudAvatar>
+                                }
+                                <MudText Typo="Typo.body1">@LikeReComments.Auther</MudText>
+                            </MudStack>
+                            <br />
+                        }
+
+                    }
+                }
+            </ul>
+        </div>
+
+      , Severity.Normal, config =>
+      {
+          //config.RequireInteraction = true;
+          config.ShowCloseIcon = true;
+          config.HideIcon = true;
+          //config.Onclick = snackbar =>
+          //{
+          //    LikesReCommentGetMore();
+          //    return Task.CompletedTask;
+          //};
+      });
+    }
+}

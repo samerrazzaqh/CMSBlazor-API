@@ -1,0 +1,38 @@
+﻿@attribute [Authorize]
+
+
+
+<MudDialog>
+    <DialogContent>
+
+        <MudForm Model="@CommentsViewModel" @ref="@form" ValidationDelay="0">
+            <MudGrid>
+                <MudItem xs="12" sm="7">
+                    <MudCard>
+                        <MudCardContent>
+
+                            <MudTextField Lines="2" Label="Comment" Required="true"
+                                          @bind-Value="CommentsViewModel!.TextComment" For="@(() => CommentsViewModel!.TextComment)" />
+
+                        </MudCardContent>
+                    </MudCard>
+                </MudItem>
+                <MudItem xs="12" sm="5">
+                    <MudPaper Class="pa-4 mud-height-full">
+                        <MudText Typo="Typo.subtitle2">Validation Summary</MudText>
+                        @if (ShowMessage)
+                        {
+                            <MudAlert Severity="Severity.Warning">@Message</MudAlert>
+                        }
+                    </MudPaper>
+                </MudItem>
+            </MudGrid>
+        </MudForm>
+
+
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(async () => await HandleEdite())">Edite</MudButton>
+    </DialogActions>
+</MudDialog>

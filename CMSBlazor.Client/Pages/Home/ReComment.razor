@@ -1,0 +1,82 @@
+﻿@using CMSBlazor.Client.Helpers
+@{
+    FormatDate formatDate = new FormatDate();
+}
+<MudTextField @bind-Text="TextReComment" T="string" Label="Reply Comment ..." Lines="2" Variant="Variant.Outlined"
+              Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Replay" OnAdornmentClick="@((e) => CreateReComment())" />
+
+<MudPaper Class="pa-1 mt-4">
+    <Virtualize Items="@InfoReComments" Context="InfoReComments">
+
+        <MudCardHeader>
+            <CardHeaderAvatar>
+                @{
+                    string path = $"{CMSConstant.BaseApiAddress+InfoReComments!.UrlImageAuther}";
+                    <MudAvatar Style="width:30px; height:30px;" Color="Color.Secondary">
+                        <MudImage Src="@path"></MudImage>
+                    </MudAvatar>
+                }
+            </CardHeaderAvatar>
+            <CardHeaderContent>
+                <MudText Typo="Typo.body2">@InfoReComments!.Auther</MudText>
+                <MudText Typo="Typo.body2"> @formatDate.Date(InfoReComments!.LCODate)</MudText>
+            </CardHeaderContent>
+            <CardHeaderActions>
+                @if (InfoReComments.UserId == localStorageModel!.UserId)
+                {
+                    <MudMenu Icon="@Icons.Material.Filled.Settings" Color="Color.Primary">
+                        <MudMenuItem @onclick="@((e) => EditTextReComment(maxWidth,InfoReComments))">Edit</MudMenuItem>
+                        <MudMenuItem @onclick="@((e) => DeleteReComment(InfoReComments))">Delete</MudMenuItem>
+                    </MudMenu>
+                }
+
+            </CardHeaderActions>
+        </MudCardHeader>
+
+        <MudCardContent>
+            <MudText Typo="Typo.body2" Align="Align.Justify">
+                @InfoReComments.ReTextComment
+            </MudText>
+
+
+            <MudCardActions>
+
+
+                <LikeReComment InfoReComments="InfoReComments" />
+
+
+
+            </MudCardActions>
+
+
+        </MudCardContent>
+
+
+
+        <hr />
+
+
+    </Virtualize>
+
+
+    @if (loadmRcomment < numberRecomment)
+    {
+        <div style="margin-top:25px;" class="d-flex flex-column align-center">
+            <MudButton OnClick="@GetMoreReComments" Disabled="@isVisiblebtn" Variant="Variant.Outlined" Color="Color.Primary">
+                @if (isVisiblebtn)
+                {
+                    <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true" />
+                    <MudText Class="ms-2">Loading ...</MudText>
+                }
+                else
+                {
+                    <MudText>Load @loadmRcomment of @numberRecomment</MudText>
+                }
+            </MudButton>
+
+        </div>
+    }
+
+
+</MudPaper>
+

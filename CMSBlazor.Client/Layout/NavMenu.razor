@@ -1,0 +1,85 @@
+﻿@using CMSBlazor.Client.Service.Account
+@using CMSBlazor.Client.Service.Administration
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@* @inject NavigationManager Navigation *@
+<MudNavMenu>
+
+    <AuthorizeView>
+        <Authorized>
+            
+            <MudNavLink Href="/profile" Match="NavLinkMatch.All" Icon="@Icons.Material.Sharp.Person">@UserName</MudNavLink>
+
+            @{
+                if (_SuperAdmin != null || _Admin != null)
+                {
+                    <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Dashboard">DashBoard</MudNavLink>
+                    <MudNavLink Href="/listusers" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Person">Users</MudNavLink>
+                    <MudNavLink Href="/listroles" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.DesignServices">Roles</MudNavLink>
+                    <MudNavLink Href="/listposts" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.List">Posts</MudNavLink>
+                    <MudNavLink Href="/listcategory" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Category">Category</MudNavLink>
+                }
+            }
+           
+
+        </Authorized>
+        <NotAuthorized>
+            <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+        </NotAuthorized>
+    </AuthorizeView>
+
+</MudNavMenu>
+
+
+@code
+{
+    //@context.User.Identity!.Name!*@
+
+    public LocalStorageModel? localStorageModel { get; set; }
+    public string? UserName, FirstName, LastName;
+
+
+
+    [Inject]
+    public IAccountService? accountService { get; set; }
+
+
+    [Inject]
+    public ILocalStorageService? localStorageService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await _Policy();
+        localStorageModel = await localStorageService!.GetItemAsync<LocalStorageModel>("Storage");
+
+        if (localStorageModel != null)
+        {
+            FirstName = localStorageModel.FirstName;
+            LastName = localStorageModel.LastName;
+            UserName = localStorageModel.UserName;
+        }
+        StateHasChanged();
+    }
+
+
+
+    //==================================================================
+    public string? _SuperAdmin, _Admin, _User;
+    [Inject]
+    public IAdministrationService? AdministrationService { get; set; }
+    public IEnumerable<Role> Roles = new List<Role>();
+    public PolicyRole? PolicyRole = new PolicyRole();
+    //=======================
+    private async Task _Policy()
+    {
+        localStorageModel = await localStorageService!.GetItemAsync<LocalStorageModel>("Storage");
+
+        PolicyRole!.UserId = localStorageModel.UserId;
+        PolicyRole = await AdministrationService!.GetRolesByUser(PolicyRole!);
+        Roles = PolicyRole.roles!;
+        _SuperAdmin = Roles.Where(e => e.RoleName == "SuperAdmin").Select(e => e.RoleName).FirstOrDefault();
+        _Admin = Roles.Where(e => e.RoleName == "Admin").Select(e => e.RoleName).FirstOrDefault();
+        _User = Roles.Where(e => e.RoleName == "User").Select(e => e.RoleName).FirstOrDefault();
+    }
+    //==================================================================
+
+}

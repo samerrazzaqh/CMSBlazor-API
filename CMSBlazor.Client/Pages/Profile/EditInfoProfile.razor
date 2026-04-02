@@ -1,0 +1,78 @@
+﻿@page "/editinfoprofile/{UserId}"
+@layout MainLayout
+
+
+
+<MudContainer Style="padding-top:inherit;" MaxWidth="MaxWidth.Large">
+
+
+
+    <MudGrid>
+        <MudItem xs="12" sm="12">
+            <MudPaper Class="pa-4 mud-theme-primary">
+                <MudText Align="Align.Center" Typo="Typo.h4">Edit Information Profile</MudText>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+
+
+
+    <EditForm Model="@EditProfile" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <MudGrid>
+            <MudItem xs="12" sm="7">
+                <MudCard>
+                    <MudCardContent>
+
+                        <MudTextField Label="Profession"
+                                      @bind-Value="EditProfile!.Profession" For="@(() => EditProfile!.Profession)" />
+
+                        <MudDatePicker Label="yyyy-MM-dd" Editable="true" @bind-Date="EditProfile.DateOfBurthEdite"
+                                       Mask="@(new DateMask("0000-00-00"))" DateFormat="yyyy-MM-dd" Placeholder="ISO Date" />
+
+                        <MudTextField Label="Location"
+                                      @bind-Value="EditProfile.Location" For="@(() => EditProfile.Location)" />
+
+                        <MudTextField Label="Skills" Lines="2"
+                                      @bind-Value="EditProfile.Skills" For="@(() => EditProfile.Skills)" />
+
+                        <MudTextField Label="Work Link" Lines="2"
+                                      @bind-Value="EditProfile.WorkLink" For="@(() => EditProfile.WorkLink)" />
+
+                        <MudTextField Label="Experience" Lines="2"
+                                      @bind-Value="EditProfile.Experience" For="@(() => EditProfile.Experience)" />
+
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Submit</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" sm="5">
+                <MudPaper Class="pa-4 mud-height-full">
+                    <MudText Typo="Typo.subtitle2">Validation Summary</MudText>
+                    @if (ShowMessage)
+                    {
+                        <MudAlert Severity="Severity.Warning">@Message</MudAlert>
+                    }
+                    else
+                    {
+                        <MudText Color="@Color.Error">
+                            <ValidationSummary />
+                        </MudText>
+                    }
+
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+    </EditForm>
+
+
+
+
+
+
+</MudContainer>
+
+
+

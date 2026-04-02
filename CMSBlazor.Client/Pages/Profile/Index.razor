@@ -1,0 +1,329 @@
+﻿@page "/profile"
+@layout MainLayout
+@attribute [Authorize]
+
+<MudOverlay @bind-Visible="isVisible" DarkBackground="true" AutoClose="true">
+    <MudProgressCircular Color="Color.Primary" Size="Size.Medium" Indeterminate="true" />
+</MudOverlay>
+<PageTitle>@infoProfile.UserName</PageTitle>
+
+<MudContainer MaxWidth="MaxWidth.Large">
+    <MudGrid Style="padding-bottom:150px;">
+        <MudItem xs="12" sm="12" md="12">
+            <MudPaper Elevation="0" Class="pa-4" Style="background-color: transparent; height: 200px;">
+                @{
+                    if (pathImageCover == null)
+                    { <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Height="250px" Width="100%" Class="ml-2 mb-2" /> }
+                    else
+                    {<MudImage Style=" width:100%;" ObjectFit="ObjectFit.Fill" Height="250" Src="@pathImageCover" Elevation="25" Class="rounded-lg" /> }
+
+                }
+
+
+
+                @*Upload Image=============================================*@
+                <MudItem Style="margin-top:-50px;" xs="12" sm="6">
+                    <MudFileUpload Accept=".png, .jpg, .jpeg" T="IBrowserFile" FilesChanged="UploadImageCover">
+                        <ActivatorContent>
+                            <MudIconButton HtmlTag="label"
+                                           Color="Color.Inherit"
+                                           Icon="@Icons.Material.Filled.PhotoCamera">
+                            </MudIconButton>
+                        </ActivatorContent>
+                    </MudFileUpload>
+                </MudItem>
+
+
+                @*Image=============================================*@
+                <MudItem Style="margin-left: 50px; margin-right: 50px; margin-top: -50px;" xs="12" sm="6">
+                    <MudGrid>
+                        <MudItem xs="4">
+                            @{
+                                if (pathImageProfile == null)
+                                { <MudSkeleton SkeletonType="SkeletonType.Circle" Animation="Animation.Wave" Height="150px" Width="150px" Class="ml-2 mb-2" />}
+                                else
+                                {
+                                    <MudAvatar Elevation="5" Style="height:150px; width:150px; font-size:2rem;" Color="Color.Primary">
+                                        <MudImage Src="@pathImageProfile"></MudImage>
+                                    </MudAvatar>
+                                }
+                            }
+
+
+
+                            @*Upload Image=============================================*@
+                            <MudItem Style="margin-top:-50px;" xs="12" sm="6">
+                                <MudFileUpload Accept=".png, .jpg, .jpeg" T="IBrowserFile" FilesChanged="UploadImageProfile">
+                                    <ActivatorContent>
+                                        <MudIconButton HtmlTag="label"
+                                                       Color="Color.Inherit"
+                                                       Icon="@Icons.Material.Filled.PhotoCamera">
+                                        </MudIconButton>
+                                    </ActivatorContent>
+                                </MudFileUpload>
+                            </MudItem>
+
+
+                        </MudItem>
+                    </MudGrid>
+                </MudItem>
+                @*========================================================*@
+
+
+
+
+
+
+
+                @*==============Name =============================================*@
+                <MudItem Style="margin-left: 250px; margin-right: 250px; margin-top: -100px;" xs="12" sm="12" md="12">
+                    <MudGrid>
+                        <MudItem xs="12" sm="12" md="12">
+                            @{
+                                if (infoProfile.FirstName == null || infoProfile.FirstName == ""
+                                    || infoProfile.LastName == null || infoProfile.LastName == "")
+                                { <MudSkeleton Animation="Animation.Wave" />}
+                                else
+                                {<MudText Typo="Typo.h5">@infoProfile.FirstName @infoProfile.LastName</MudText>}
+
+                            }
+
+
+                        </MudItem>
+                    </MudGrid>
+                </MudItem>
+                @*========================================================*@
+
+
+
+
+            </MudPaper>
+
+        </MudItem>
+
+
+
+
+
+    </MudGrid>
+
+
+
+    <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.Large">
+
+        @*========================================================*@
+        <MudPaper Style="background-color:transparent; padding-bottom:10px;" Class="d-flex justify-end flex-grow-1 gap-4" Elevation="0">
+            <MudButtonGroup Color="Color.Primary" Size="Size.Small" Variant="Variant.Outlined">
+                <MudButton OnClick="GoEditeInfo">Edite Information</MudButton>
+                <MudButton OnClick="GoEditeAccount">Edite Account</MudButton>
+            </MudButtonGroup>
+        </MudPaper>
+        @*========================================================*@
+
+
+
+
+
+
+
+
+        <MudGrid>
+
+            <MudItem xs="12" sm="12" md="12">
+
+                <MudTabs Centered="true" Elevation="2" Rounded="true" ApplyEffectsToContainer="true" PanelClass="pa-6">
+
+                    <MudTabPanel Text="Information User">
+
+                        <MudTimeline TimelineOrientation="TimelineOrientation.Vertical" TimelinePosition="TimelinePosition.Start">
+
+                            <MudTimelineItem Color="Color.Primary" Variant="Variant.Filled">
+                                <ItemContent>
+                                    @{
+                                        if (infoProfile.FirstName == null || infoProfile.FirstName == ""
+                                            || infoProfile.LastName == null || infoProfile.LastName == "")
+                                        { <MudSkeleton Animation="Animation.Wave" />}
+                                        else
+                                        { <MudText Color="Color.Inherit">FullName : @infoProfile.FirstName @infoProfile.LastName</MudText>}
+
+                                    }
+                                </ItemContent>
+                            </MudTimelineItem>
+
+                            <MudTimelineItem Color="Color.Primary" Variant="Variant.Filled">
+                                <ItemContent>
+                                    @{
+                                        if (infoProfile.UserName == null)
+                                        { <MudSkeleton Animation="Animation.Wave" />}
+                                        else
+                                        { <MudText Color="Color.Inherit">UserName : @infoProfile.UserName</MudText>}
+
+                                    }
+
+                                </ItemContent>
+                            </MudTimelineItem>
+
+                            <MudTimelineItem Color="Color.Primary" Variant="Variant.Filled">
+                                <ItemContent>
+                                    @{
+                                        if (infoProfile.DateOfBurthEdite == null)
+                                        { <MudSkeleton Animation="Animation.Wave" />}
+                                        else
+                                        { <MudText Color="Color.Inherit">Date Of Burth : @infoProfile.DateOfBurthEdite.ToString("d MMMM yyyy")</MudText>}
+
+                                    }
+
+                                </ItemContent>
+                            </MudTimelineItem>
+
+                            <MudTimelineItem Color="Color.Primary" Variant="Variant.Filled">
+                                <ItemContent>
+                                    @{
+                                        if (infoProfile.Location == null || infoProfile.Location == "")
+                                        { <MudSkeleton Animation="Animation.Wave" />}
+                                        else
+                                        { <MudText Color="Color.Inherit">City : @infoProfile.Location</MudText>}
+
+                                    }
+
+                                </ItemContent>
+                            </MudTimelineItem>
+
+                        </MudTimeline>
+
+                    </MudTabPanel>
+
+
+                    <MudTabPanel Text="Information Profession">
+                        <MudTimeline TimelineOrientation="TimelineOrientation.Vertical" TimelinePosition="TimelinePosition.Start">
+
+                            <MudTimelineItem Color="Color.Primary" Variant="Variant.Filled">
+                                <ItemContent>
+                                    @{
+                                        if (infoProfile.Skills == null || infoProfile.Skills == "")
+                                        { <MudSkeleton Animation="Animation.Wave" />}
+                                        else
+                                        { <MudText Color="Color.Inherit">Skills : @infoProfile.Skills</MudText>}
+
+                                    }
+
+                                </ItemContent>
+                            </MudTimelineItem>
+
+                            <MudTimelineItem Color="Color.Primary" Variant="Variant.Filled">
+                                <ItemContent>
+                                    @{
+                                        if (infoProfile.Experience == null || infoProfile.Experience == "")
+                                        { <MudSkeleton Animation="Animation.Wave" />}
+                                        else
+                                        { <MudText Color="Color.Inherit">Experience : @infoProfile.Experience</MudText>}
+
+                                    }
+
+                                </ItemContent>
+                            </MudTimelineItem>
+
+                            <MudTimelineItem Color="Color.Primary" Variant="Variant.Filled">
+                                <ItemContent>
+                                    @{
+                                        if (infoProfile.Profession == null || infoProfile.Profession == "")
+                                        { <MudSkeleton Animation="Animation.Wave" />}
+                                        else
+                                        { <MudText Color="Color.Inherit">Profession : @infoProfile.Profession</MudText>}
+
+                                    }
+
+                                </ItemContent>
+                            </MudTimelineItem>
+
+                        </MudTimeline>
+                    </MudTabPanel>
+
+                    <MudTabPanel Text="Contact">
+                        <MudTimeline TimelineOrientation="TimelineOrientation.Vertical" TimelinePosition="TimelinePosition.Start">
+
+                            <MudTimelineItem Color="Color.Primary" Variant="Variant.Filled">
+                                <ItemContent>
+                                    @{
+                                        if (infoProfile.Email == null)
+                                        { <MudSkeleton Animation="Animation.Wave" />}
+                                        else
+                                        { <MudText Color="Color.Inherit">Email : @infoProfile.Email</MudText>}
+
+                                    }
+
+                                </ItemContent>
+                            </MudTimelineItem>
+
+                            <MudTimelineItem Color="Color.Primary" Variant="Variant.Filled">
+                                <ItemContent>
+                                    @{
+                                        if (infoProfile.PhoneNumber == null || infoProfile.PhoneNumber == "")
+                                        { <MudSkeleton Animation="Animation.Wave" />}
+                                        else
+                                        { <MudText Color="Color.Inherit">Phone Number : @infoProfile.PhoneNumber</MudText>}
+
+                                    }
+                                </ItemContent>
+                            </MudTimelineItem>
+
+                            <MudTimelineItem Color="Color.Primary" Variant="Variant.Filled">
+                                <ItemContent>
+                                    @{
+                                        if (infoProfile.WorkLink == null || infoProfile.WorkLink == "")
+                                        { <MudSkeleton Animation="Animation.Wave" />}
+                                        else
+                                        { <MudText Color="Color.Inherit">WorkLink : @infoProfile.WorkLink</MudText>}
+
+                                    }
+
+                                </ItemContent>
+                            </MudTimelineItem>
+
+                        </MudTimeline>
+                    </MudTabPanel>
+
+                </MudTabs>
+
+
+            </MudItem>
+        </MudGrid>
+
+
+    </MudContainer>
+</MudContainer>
+
+
+
+
+
+@code
+{
+
+
+    //private string _buttonText = "Reply";
+
+    //private void SetButtonText(int id)
+    //{
+    //    switch (id)
+    //    {
+    //        case 0:
+    //            _buttonText = "Reply";
+    //            break;
+    //        case 1:
+    //            _buttonText = "Reply All";
+    //            break;
+    //        case 2:
+    //            _buttonText = "Forward";
+    //            break;
+    //        case 3:
+    //            _buttonText = "Reply & Delete";
+    //            break;
+    //    }
+    //}
+
+
+
+
+
+}

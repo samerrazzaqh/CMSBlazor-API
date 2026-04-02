@@ -1,0 +1,84 @@
+﻿@page "/editinfoaccount/{UserId}"
+@layout MainLayout
+
+
+
+<MudContainer Style="padding-top:inherit;" MaxWidth="MaxWidth.Large">
+
+
+
+    <MudGrid>
+        <MudItem xs="12" sm="12">
+            <MudPaper Class="pa-4 mud-theme-primary">
+                <MudText Align="Align.Center" Typo="Typo.h4">Edit Information Profile</MudText>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+
+
+
+    <EditForm Model="@EditAccount" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <MudGrid>
+            <MudItem xs="12" sm="7">
+                <MudCard>
+                    <MudCardContent>
+
+                        <MudTextField Label="FirstName"
+                                      @bind-Value="EditAccount!.FirstName" For="@(() => EditAccount!.FirstName)" />
+
+                        <MudTextField Label="LastName"
+                                      @bind-Value="EditAccount.LastName" For="@(() => EditAccount.LastName)" />
+
+                        <MudTextField Label="Email"
+                                      @bind-Value="EditAccount.Email" For="@(() => EditAccount.Email)" />
+
+                        <MudTextField Label="UserName"
+                                      @bind-Value="EditAccount.UserName" For="@(() => EditAccount.UserName)" />
+
+                        <MudTextField Label="PhoneNumber"
+                                      @bind-Value="EditAccount.PhoneNumber" For="@(() => EditAccount.PhoneNumber)" />
+
+
+                        @{
+                            if (EditAccount.Password != null)
+                            {
+
+                                <MudTextField Label="Password" Class="mt-3" Required="true"
+                                              @bind-Value="EditAccount.Password" For="@(() => EditAccount.Password)" InputType="InputType.Password" />}
+                        }
+
+
+
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Submit</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" sm="5">
+                <MudPaper Class="pa-4 mud-height-full">
+                    <MudText Typo="Typo.subtitle2">Validation Summary</MudText>
+                    @if (ShowMessage)
+                    {
+                        <MudAlert Severity="Severity.Warning">@Message</MudAlert>
+                    }
+                    else
+                    {
+                        <MudText Color="@Color.Error">
+                            <ValidationSummary />
+                        </MudText>
+                    }
+
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+    </EditForm>
+
+
+
+
+
+
+</MudContainer>
+

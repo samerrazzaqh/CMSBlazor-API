@@ -1,0 +1,902 @@
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/appsettings.Development.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/appsettings.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.staticwebassets.runtime.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.staticwebassets.endpoints.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.deps.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.runtimeconfig.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.pdb
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Azure.Core.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Azure.Identity.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Humanizer.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Facebook.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Google.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Identity.Core.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Logging.Debug.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/MySqlConnector.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.ClientModel.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.CodeDom.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Drawing.Common.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Shared.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Shared.pdb
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.csproj.AssemblyReference.cache
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.AssemblyInfoInputs.cache
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.AssemblyInfo.cs
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.csproj.CoreCompileInputs.cache
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.MvcApplicationPartsAssemblyInfo.cs
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.MvcApplicationPartsAssemblyInfo.cache
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/scopedcss/bundle/CMSBlazor.styles.css
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ofa40bqe71-b9sayid5wm.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/j9swiz3yzq-90yqlj465b.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/vltxs1u3vm-xtxxf3hu2r.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/14ipv7q33s-bqjiyaj88i.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/rh65p086id-c2jlpeoesf.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/eb27mqwgz2-erw9l3u2r3.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/9glsckmvxo-aexeepp0ev.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/hh8ihyobdx-d7shbmvgxk.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/bww8ud00yd-ausgxo2sd3.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/edcrak57d7-k8d9w2qqmf.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/sf8kf2lula-cosvhxvwiu.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/3tzsqhslk9-ub07r2b239.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/oxk5o6czdw-fvhpjtyr6v.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/k8b25g0zwc-b7pk76d08c.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/8axix7wldr-fsbi9cje9m.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/d5z9sfpxbi-rzd6atqjts.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/u8428c4e9i-ee0r1s7dh0.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/tg53r17ghy-dxx9fxp4il.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/nlrl0f3xs3-jd9uben2k1.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/1fc4q00scq-khv3u5hwcm.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/8xykfy6qmd-r4e9w2rdcm.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/vsrbd71spn-lcd1t2u6c8.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/cynp17w084-c2oey78nd0.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/7o8oyvng68-tdbxkamptv.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/h9vwtoirpy-j5mq2jizvt.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/o5k23vqhrk-06098lyss8.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/iznc766avz-nvvlpmu67g.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ns4583i71s-s35ty4nyc5.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/47012z8l2l-pj5nd1wqec.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/4vzefxwp2m-46ein0sx1k.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/bh4v3mdph9-v0zj4ognzu.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/l186vlgaag-37tfw0ft22.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/rsc7qacj1u-hrwsygsryq.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/z408qb6q7a-pk9g2wxc8p.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/qfr28sqcy1-ft3s53vfgj.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/0k1i85ntyh-6cfz1n2cew.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/xa379ftczi-6pdc2jztkx.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/lr5hmrr0j7-493y06b0oq.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ivy2s9gwh5-iovd86k7lj.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/higufxz8op-vr1egmr9el.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/s3tglgz8hr-kbrnm935zg.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/vw9sls9bhj-jj8uyg4cgr.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ym8tkpcl2i-y7v9cxd14o.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/zzna4nrm5w-notf2xhcfb.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/igscs4x0yk-h1s4sie4z3.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/zap00c0tb5-63fj8s7r0e.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/pogzkicjpz-0j3bgjxly4.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/j3hwsq15kh-47otxtyo56.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/q3naettu8c-4v8eqarkd7.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ldxy2n3w6q-356vix0kms.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ypthv7q62w-83jwlth58m.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/t6e3b82hrf-mrlpezrjn3.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/uocis9wxbx-lzl9nlhx6b.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/2tikzqlmtu-ag7o75518u.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/9muusbdg0a-x0q3zqp4vz.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/tpsq5dibur-0i3buxo5is.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/t0qo7o574p-o1o13a6vjx.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/b9lhb08218-ttgo8qnofa.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/a3ygkwa5zy-2z0ns9nrw6.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/nezrqnk58p-muycvpuwrr.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/v0zgfp0y55-87fc7y1x7t.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/yfc7ypekbg-mlv21k5csn.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/iz09ysmbki-2jeq8efc6q.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.build.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.development.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.csproj.Up2Date
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/refint/CMSBlazor.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.pdb
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.genruntimeconfig.cache
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/ref/CMSBlazor.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugHost.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.Scripting.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.FileFormats.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.NET.WebAssembly.Webcil.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.SymbolStore.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.staticwebassets.runtime.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.staticwebassets.endpoints.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/AutoMapper.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Blazored.LocalStorage.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authorization.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Metadata.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Http.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Localization.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Localization.Abstractions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.JSInterop.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/MudBlazor.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.pdb
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/tzxjg6is5z-0n6lrtb02s.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/0wz98yz2xy-lftp6ydp6b.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/f32kn295nz-gcvjxldlff.gz
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Http.Connections.Common.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Common.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Features.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Net.ServerSentEvents.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/appsettings.Development.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/appsettings.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugHost.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.Scripting.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.FileFormats.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.NET.WebAssembly.Webcil.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.SymbolStore.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.staticwebassets.runtime.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.staticwebassets.endpoints.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.staticwebassets.runtime.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.staticwebassets.endpoints.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.deps.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.runtimeconfig.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.pdb
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/AutoMapper.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Azure.Core.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Azure.Identity.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Blazored.LocalStorage.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Humanizer.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Facebook.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Google.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authorization.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Forms.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Web.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Http.Connections.Common.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.UI.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Metadata.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Common.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Binder.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Json.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Features.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Http.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Identity.Core.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Identity.Stores.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Localization.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Localization.Abstractions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Logging.Debug.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.JSInterop.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.JSInterop.WebAssembly.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/MudBlazor.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/MySqlConnector.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.ClientModel.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.CodeDom.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.Convention.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Drawing.Common.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Memory.Data.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Net.ServerSentEvents.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Security.Permissions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Shared.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.pdb
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Shared.pdb
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.csproj.AssemblyReference.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.AssemblyInfoInputs.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.AssemblyInfo.cs
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.csproj.CoreCompileInputs.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.MvcApplicationPartsAssemblyInfo.cs
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.MvcApplicationPartsAssemblyInfo.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/scopedcss/bundle/CMSBlazor.styles.css
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.build.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.development.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.csproj.Up2Date
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/refint/CMSBlazor.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.pdb
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.genruntimeconfig.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/ref/CMSBlazor.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/tzxjg6is5z-{0}-0n6lrtb02s-0n6lrtb02s.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/0wz98yz2xy-{0}-lftp6ydp6b-lftp6ydp6b.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/f32kn295nz-{0}-gcvjxldlff-gcvjxldlff.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ofa40bqe71-{0}-b9sayid5wm-b9sayid5wm.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/j9swiz3yzq-{0}-90yqlj465b-90yqlj465b.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/vltxs1u3vm-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/14ipv7q33s-{0}-bqjiyaj88i-bqjiyaj88i.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/rh65p086id-{0}-c2jlpeoesf-c2jlpeoesf.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/eb27mqwgz2-{0}-erw9l3u2r3-erw9l3u2r3.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/9glsckmvxo-{0}-aexeepp0ev-aexeepp0ev.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/hh8ihyobdx-{0}-d7shbmvgxk-d7shbmvgxk.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/bww8ud00yd-{0}-ausgxo2sd3-ausgxo2sd3.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/edcrak57d7-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/sf8kf2lula-{0}-cosvhxvwiu-cosvhxvwiu.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/3tzsqhslk9-{0}-ub07r2b239-ub07r2b239.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/oxk5o6czdw-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/k8b25g0zwc-{0}-b7pk76d08c-b7pk76d08c.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/8axix7wldr-{0}-fsbi9cje9m-fsbi9cje9m.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/d5z9sfpxbi-{0}-rzd6atqjts-rzd6atqjts.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/u8428c4e9i-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/tg53r17ghy-{0}-dxx9fxp4il-dxx9fxp4il.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/nlrl0f3xs3-{0}-jd9uben2k1-jd9uben2k1.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/1fc4q00scq-{0}-khv3u5hwcm-khv3u5hwcm.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/8xykfy6qmd-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/vsrbd71spn-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/cynp17w084-{0}-c2oey78nd0-c2oey78nd0.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/7o8oyvng68-{0}-tdbxkamptv-tdbxkamptv.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/h9vwtoirpy-{0}-j5mq2jizvt-j5mq2jizvt.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/o5k23vqhrk-{0}-06098lyss8-06098lyss8.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/iznc766avz-{0}-nvvlpmu67g-nvvlpmu67g.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ns4583i71s-{0}-s35ty4nyc5-s35ty4nyc5.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/47012z8l2l-{0}-pj5nd1wqec-pj5nd1wqec.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/4vzefxwp2m-{0}-46ein0sx1k-46ein0sx1k.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/bh4v3mdph9-{0}-v0zj4ognzu-v0zj4ognzu.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/l186vlgaag-{0}-37tfw0ft22-37tfw0ft22.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/rsc7qacj1u-{0}-hrwsygsryq-hrwsygsryq.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/z408qb6q7a-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/qfr28sqcy1-{0}-ft3s53vfgj-ft3s53vfgj.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/0k1i85ntyh-{0}-6cfz1n2cew-6cfz1n2cew.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/xa379ftczi-{0}-6pdc2jztkx-6pdc2jztkx.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/lr5hmrr0j7-{0}-493y06b0oq-493y06b0oq.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ivy2s9gwh5-{0}-iovd86k7lj-iovd86k7lj.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/higufxz8op-{0}-vr1egmr9el-vr1egmr9el.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/s3tglgz8hr-{0}-kbrnm935zg-kbrnm935zg.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/vw9sls9bhj-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ym8tkpcl2i-{0}-y7v9cxd14o-y7v9cxd14o.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/zzna4nrm5w-{0}-notf2xhcfb-notf2xhcfb.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/igscs4x0yk-{0}-h1s4sie4z3-h1s4sie4z3.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/zap00c0tb5-{0}-63fj8s7r0e-63fj8s7r0e.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/pogzkicjpz-{0}-0j3bgjxly4-0j3bgjxly4.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/j3hwsq15kh-{0}-47otxtyo56-47otxtyo56.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/q3naettu8c-{0}-4v8eqarkd7-4v8eqarkd7.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ldxy2n3w6q-{0}-356vix0kms-356vix0kms.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ypthv7q62w-{0}-83jwlth58m-83jwlth58m.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/t6e3b82hrf-{0}-mrlpezrjn3-mrlpezrjn3.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/uocis9wxbx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/2tikzqlmtu-{0}-ag7o75518u-ag7o75518u.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/9muusbdg0a-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/tpsq5dibur-{0}-0i3buxo5is-0i3buxo5is.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/t0qo7o574p-{0}-o1o13a6vjx-o1o13a6vjx.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/b9lhb08218-{0}-ttgo8qnofa-ttgo8qnofa.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/a3ygkwa5zy-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/5ywkklfrm9-{0}-2jeq8efc6q-2jeq8efc6q.gz
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/swae.build.ex.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/appsettings.Development.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/appsettings.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugHost.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.CodeAnalysis.Scripting.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.FileFormats.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.NET.WebAssembly.Webcil.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Microsoft.SymbolStore.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.staticwebassets.runtime.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.staticwebassets.endpoints.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.staticwebassets.runtime.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.staticwebassets.endpoints.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.deps.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.runtimeconfig.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.pdb
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/AutoMapper.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Azure.Core.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Azure.Identity.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Blazored.LocalStorage.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Humanizer.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Facebook.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.Google.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Authorization.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Authorization.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Http.Connections.Common.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.Metadata.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Client.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Common.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Features.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Http.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Identity.Core.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Localization.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Localization.Abstractions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Logging.Debug.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Identity.Client.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.JSInterop.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/MudBlazor.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/MySqlConnector.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.ClientModel.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.CodeDom.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Drawing.Common.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Memory.Data.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Net.ServerSentEvents.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Runtime.Caching.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Security.Permissions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/System.Windows.Extensions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Shared.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Client.pdb
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/bin/Debug/net9.0/CMSBlazor.Shared.pdb
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.csproj.AssemblyReference.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rpswa.dswa.cache.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.AssemblyInfoInputs.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.AssemblyInfo.cs
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.csproj.CoreCompileInputs.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.MvcApplicationPartsAssemblyInfo.cs
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.MvcApplicationPartsAssemblyInfo.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rjimswa.dswa.cache.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/scopedcss/bundle/CMSBlazor.styles.css
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/tzxjg6is5z-{0}-0n6lrtb02s-0n6lrtb02s.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/0wz98yz2xy-{0}-lftp6ydp6b-lftp6ydp6b.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/f32kn295nz-{0}-gcvjxldlff-gcvjxldlff.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ofa40bqe71-{0}-b9sayid5wm-b9sayid5wm.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/j9swiz3yzq-{0}-90yqlj465b-90yqlj465b.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/vltxs1u3vm-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/14ipv7q33s-{0}-bqjiyaj88i-bqjiyaj88i.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/rh65p086id-{0}-c2jlpeoesf-c2jlpeoesf.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/eb27mqwgz2-{0}-erw9l3u2r3-erw9l3u2r3.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/9glsckmvxo-{0}-aexeepp0ev-aexeepp0ev.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/hh8ihyobdx-{0}-d7shbmvgxk-d7shbmvgxk.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/bww8ud00yd-{0}-ausgxo2sd3-ausgxo2sd3.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/edcrak57d7-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/sf8kf2lula-{0}-cosvhxvwiu-cosvhxvwiu.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/3tzsqhslk9-{0}-ub07r2b239-ub07r2b239.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/oxk5o6czdw-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/k8b25g0zwc-{0}-b7pk76d08c-b7pk76d08c.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/8axix7wldr-{0}-fsbi9cje9m-fsbi9cje9m.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/d5z9sfpxbi-{0}-rzd6atqjts-rzd6atqjts.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/u8428c4e9i-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/tg53r17ghy-{0}-dxx9fxp4il-dxx9fxp4il.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/nlrl0f3xs3-{0}-jd9uben2k1-jd9uben2k1.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/1fc4q00scq-{0}-khv3u5hwcm-khv3u5hwcm.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/8xykfy6qmd-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/vsrbd71spn-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/cynp17w084-{0}-c2oey78nd0-c2oey78nd0.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/7o8oyvng68-{0}-tdbxkamptv-tdbxkamptv.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/h9vwtoirpy-{0}-j5mq2jizvt-j5mq2jizvt.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/o5k23vqhrk-{0}-06098lyss8-06098lyss8.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/iznc766avz-{0}-nvvlpmu67g-nvvlpmu67g.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ns4583i71s-{0}-s35ty4nyc5-s35ty4nyc5.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/47012z8l2l-{0}-pj5nd1wqec-pj5nd1wqec.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/4vzefxwp2m-{0}-46ein0sx1k-46ein0sx1k.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/bh4v3mdph9-{0}-v0zj4ognzu-v0zj4ognzu.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/l186vlgaag-{0}-37tfw0ft22-37tfw0ft22.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/rsc7qacj1u-{0}-hrwsygsryq-hrwsygsryq.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/z408qb6q7a-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/qfr28sqcy1-{0}-ft3s53vfgj-ft3s53vfgj.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/0k1i85ntyh-{0}-6cfz1n2cew-6cfz1n2cew.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/xa379ftczi-{0}-6pdc2jztkx-6pdc2jztkx.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/lr5hmrr0j7-{0}-493y06b0oq-493y06b0oq.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ivy2s9gwh5-{0}-iovd86k7lj-iovd86k7lj.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/higufxz8op-{0}-vr1egmr9el-vr1egmr9el.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/s3tglgz8hr-{0}-kbrnm935zg-kbrnm935zg.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/vw9sls9bhj-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ym8tkpcl2i-{0}-y7v9cxd14o-y7v9cxd14o.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/zzna4nrm5w-{0}-notf2xhcfb-notf2xhcfb.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/igscs4x0yk-{0}-h1s4sie4z3-h1s4sie4z3.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/zap00c0tb5-{0}-63fj8s7r0e-63fj8s7r0e.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/pogzkicjpz-{0}-0j3bgjxly4-0j3bgjxly4.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/j3hwsq15kh-{0}-47otxtyo56-47otxtyo56.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/q3naettu8c-{0}-4v8eqarkd7-4v8eqarkd7.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ldxy2n3w6q-{0}-356vix0kms-356vix0kms.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/ypthv7q62w-{0}-83jwlth58m-83jwlth58m.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/t6e3b82hrf-{0}-mrlpezrjn3-mrlpezrjn3.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/uocis9wxbx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/2tikzqlmtu-{0}-ag7o75518u-ag7o75518u.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/9muusbdg0a-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/tpsq5dibur-{0}-0i3buxo5is-0i3buxo5is.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/t0qo7o574p-{0}-o1o13a6vjx-o1o13a6vjx.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/b9lhb08218-{0}-ttgo8qnofa-ttgo8qnofa.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/a3ygkwa5zy-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/compressed/5ywkklfrm9-{0}-2jeq8efc6q-2jeq8efc6q.gz
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.build.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.development.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/swae.build.ex.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.csproj.Up2Date
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/refint/CMSBlazor.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.pdb
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/CMSBlazor.genruntimeconfig.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor/obj/Debug/net9.0/ref/CMSBlazor.dll

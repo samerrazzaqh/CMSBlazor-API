@@ -1,0 +1,50 @@
+﻿@using Blazored.LocalStorage
+@using CMSBlazor.Client.Helpers
+@using CMSBlazor.Client.Models
+@using CMSBlazor.Client.Service.Account
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+@code {
+    
+    
+    // protected override void OnInitialized()
+    // {
+    //     
+    //     Navigation.NavigateTo($"/login", forceLoad: true);
+    //     // Navigation.NavigateTo($"Account/Login?returnUrl={CMSConstant.BaseApiAddress}", forceLoad: true);
+    // }
+    
+    public LocalStorageModel? localStorageModel { get; set; }
+    
+    [Inject]
+    public ILocalStorageService? localStorageService { get; set; }
+    
+    [Inject]
+    public IAccountService? accountService { get; set; }
+    public LocalStorageModel localStorage = new LocalStorageModel();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        if (user.Identity!.IsAuthenticated)
+        {
+            localStorageModel = await localStorageService!.GetItemAsync<LocalStorageModel>("Storage");
+            localStorage.Email = localStorageModel.Email;
+            localStorage.Token = localStorageModel.Token;
+            accountService!.LoginStorage(localStorage);
+            StateHasChanged();
+        }
+        else
+        {
+            Navigation.NavigateTo("/login");
+        }
+    
+    
+    
+    
+    }
+}
+

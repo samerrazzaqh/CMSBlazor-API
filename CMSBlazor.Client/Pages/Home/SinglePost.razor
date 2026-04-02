@@ -1,0 +1,284 @@
+﻿@page "/singlepost/{postId:long}"
+@using CMSBlazor.Client.Helpers
+@{
+    FormatDate formatDate = new FormatDate();
+}
+
+<PageTitle>Post</PageTitle>
+<MudOverlay @bind-Visible="isVisible" DarkBackground="true" AutoClose="true">
+    <MudProgressCircular Color="Color.Primary" Size="Size.Medium" Indeterminate="true" />
+</MudOverlay>
+
+<MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
+    <MudGrid>
+
+        <MudGrid>
+            <MudItem xs="12" sm="12">
+                <MudPaper Class="pa-4 mud-theme-primary">
+                    <MudText Align="Align.Center" Typo="Typo.h5">@PostViewModel!.Title</MudText>
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+
+
+
+        <MudItem xs="12" sm="12" md="12">
+            <MudCard>
+                <MudCardHeader>
+                    <CardHeaderAvatar>
+
+                        <MudAvatar Class="cursor-pointer" Elevation="5" Style="width:50px; height:50px;" Color="Color.Secondary">
+                            @{
+                                string path = $"{CMSConstant.BaseApiAddress}{PostViewModel!.UrlImageAuther}";
+                                <MudImage Src="@path"></MudImage>
+                            }
+                        </MudAvatar>
+                    </CardHeaderAvatar>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h6">@PostViewModel!.Auther</MudText>
+                        <MudText Typo="Typo.body2">@formatDate.Date(PostViewModel!.PostDate)</MudText>
+                    </CardHeaderContent>
+                    <CardHeaderActions>
+                        <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                    </CardHeaderActions>
+                </MudCardHeader>
+
+                <MudGrid>
+                    <MudItem xs="12" sm="12" md="6">
+                        <MudCard>
+                            @{
+                                string path = $"{CMSConstant.BaseApiAddress}{PostViewModel!.PostImg}";
+                                <MudCardMedia Image="@path" Height="400"/>
+                            }
+                        </MudCard>
+                    </MudItem>
+
+                    <MudItem xs="12" sm="12" md="6">
+                        <MudCard>
+                            <iframe src=@PostViewModel!.LinkVideo style="height:400px;"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </MudCard>
+                    </MudItem>
+
+                </MudGrid>
+
+
+                <MudCardContent>
+                    <MudText Typo="Typo.body2" Align="Align.Justify">
+                        @PostViewModel!.PostContent
+                    </MudText>
+                </MudCardContent>
+                @*=========================Like and View Post=======================================================================*@
+                <MudCardActions>
+                    <MudMenu MaxHeight="200" Label="@PostViewModel!.NumberLikes.ToString()">
+                        @{
+                            bool isEmpty = UsersLikePosts!.Any();
+                            if (isEmpty != false)
+                            {
+                                foreach (var UsersLikePosts in UsersLikePosts!)
+                                {
+                                    <MudMenuItem>
+                                        <MudStack Row="true">
+                                            @{
+                                                string path = $"{CMSConstant.BaseApiAddress+UsersLikePosts.urlImageProfile}";
+                                                <MudAvatar Style="height:30px; width:30px;" Color="Color.Secondary">
+                                                    <MudImage Src="@path"></MudImage>
+                                                </MudAvatar>
+                                            }
+                                            <MudText Typo="Typo.body1">@UsersLikePosts.userName</MudText>
+                                        </MudStack>
+                                    </MudMenuItem>
+                                }
+                            }
+                        }
+
+                    </MudMenu>
+                    @{
+                        bool isLike = true;
+                        if (UsersLikePosts!.Any() != false)
+                        {
+                            foreach (var UsersLikePosts in UsersLikePosts!)
+                            {
+                                if (UsersLikePosts.userId == localStorageModel!.UserId)
+                                {
+                                    isLike = true;
+                                    break;
+                                }
+                                else
+                                {
+                                    isLike = false;
+                                }
+                            }
+                        }
+                        else
+                        {
+                            isLike = false;
+                        }
+                        if (isLike == true)
+                        {
+                            <MudIconButton OnClick="@((e) => LikePostCreate())" Icon="@Favorite" Color="Color.Error" />
+                        }
+                        else
+                        {
+                            <MudIconButton OnClick="@((e) => LikePostCreate())" Icon="@FavoriteBorder" Color="Color.Error" />
+                        }
+                    }
+
+                    <MudIcon Style="margin-right:10px; margin-left:10px;" Icon="@Icons.Material.Filled.Visibility" Color="Color.Default" /> @PostViewModel!.PostViews
+                </MudCardActions>
+
+            </MudCard>
+            @*=========================Comments=======================================================================*@
+            <MudPaper Class="pa-4 mt-4">
+                <MudTextField @bind-Text="TextComment" T="string" Label="Write Comment Here ..." Lines="3" Variant="Variant.Outlined"
+                              Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Send" OnAdornmentClick="@(() => CreateComment())" />
+            </MudPaper>
+
+
+            <MudPaper Class="pa-4 mt-4">
+
+                @foreach (var InfoComments in InfoComments)
+                {
+                    <MudCard>
+                        <MudCardHeader>
+                            <CardHeaderAvatar>
+                                @{
+                                    string path = $"{CMSConstant.BaseApiAddress+InfoComments!.UrlImageAuther}";
+                                    <MudAvatar Style="width:50px; height:50px;" Color="Color.Secondary">
+                                        <MudImage Src="@path"></MudImage>
+                                    </MudAvatar>
+                                }
+                                
+                            </CardHeaderAvatar>
+                            <CardHeaderContent>
+                                <MudText Typo="Typo.body1">@InfoComments!.Auther</MudText>
+                                <MudText Typo="Typo.body2">@formatDate.Date(InfoComments.LCODate)</MudText>
+                            </CardHeaderContent>
+                            <CardHeaderActions>
+                                @if (InfoComments.UserId == localStorageModel!.UserId)
+                                {
+                                    <MudMenu Icon="@Icons.Material.Filled.Settings" Color="Color.Primary">
+                                        <MudMenuItem @onclick="@((e) => EditTextComment(maxWidth,InfoComments))">Edit</MudMenuItem>
+                                        <MudMenuItem @onclick="@((e) => DeleteComment(InfoComments))">Delete</MudMenuItem>
+                                    </MudMenu>
+                                }
+
+                            </CardHeaderActions>
+                        </MudCardHeader>
+
+
+                        <MudCardContent>
+
+                            <MudText Typo="Typo.body2" Align="Align.Justify">
+                                @InfoComments.TextComment
+                            </MudText>
+
+                            <MudCardActions>
+                                <MudMenu MaxHeight="200" Label="@InfoComments.NumberlikesComment.ToString()">
+                                    @{
+                                        bool isEmpty = InfoComments.UsersLikeComment!.Any();
+                                        if (isEmpty != false)
+                                        {
+                                            foreach (var UsersLikeComment in InfoComments.UsersLikeComment!)
+                                            {
+                                                <MudMenuItem>
+                                                    <MudStack Row="true">
+                                                        @{
+                                                            string path = $"{CMSConstant.BaseApiAddress + UsersLikeComment.UrlImageProfile}";
+                                                            <MudAvatar Style="height:30px; width:30px;" Color="Color.Secondary">
+                                                                <MudImage Src="@path"></MudImage>
+                                                            </MudAvatar>
+                                                        }
+                                                        <MudText Typo="Typo.body1">@UsersLikeComment.userName</MudText>
+                                                    </MudStack>
+                                                </MudMenuItem>
+                                            }
+                                        }
+                                    }
+
+                                </MudMenu>
+                                @{
+                                    bool isEmpty = InfoComments.UsersLikeComment!.Any();
+                                    bool isLike = true;
+                                    if (isEmpty != false)
+                                    {
+                                        isEmpty = true;
+                                        foreach (var UsersLikeComment in InfoComments.UsersLikeComment!)
+                                        {
+                                            if (UsersLikeComment.UserId == localStorageModel!.UserId)
+                                            {
+                                                isLike = true;
+                                                break;
+                                            }
+                                            else
+                                            {
+                                                isLike = false;
+                                            }
+                                        }
+                                    }
+                                    else
+                                    {
+                                        isEmpty = false;
+                                    }
+
+
+                                    if (isLike == true && isEmpty == true)
+                                    {
+                                        <MudIconButton OnClick="@((e) => LikeComments(InfoComments))" Icon="@Favorite" Color="Color.Error" />
+                                    }
+                                    else if (isLike == false || isEmpty == false)
+                                    {
+                                        <MudIconButton OnClick="@((e) => LikeComments(InfoComments))" Icon="@FavoriteBorder" Color="Color.Error" />
+                                    }
+                                    isLike = false;
+                                    isEmpty = false;
+
+                                }
+
+                                <MudMenu Label="@InfoComments.NumberRecomment.ToString()">
+                                </MudMenu>
+
+                                <MudIconButton Icon="@Icons.Material.Filled.Comment" Color="Color.Default" />
+                            </MudCardActions>
+                            @*=========================ReplayComments=======================================================================*@
+
+                            <ReComment InfoComment="@InfoComments">
+
+                            </ReComment>
+
+
+
+                            @*=========================End Replay Comments=======================================================================*@
+                        </MudCardContent>
+                    </MudCard>
+
+                    <hr />
+
+                }
+
+
+                <div style="margin-top:25px;" class="d-flex flex-column align-center">
+                    <MudButton OnClick="@GetMoreComments" Disabled="@isVisiblebtn" Variant="Variant.Filled" Color="Color.Primary">
+                        @if (isVisiblebtn)
+                        {
+                            <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true" />
+                            <MudText Class="ms-2">Loading ...</MudText>
+                        }
+                        else
+                        {
+                            <MudText>Load More Comments</MudText>
+                        }
+                    </MudButton>
+                </div>
+
+            </MudPaper>
+
+
+        </MudItem>
+
+
+
+
+
+    </MudGrid>
+</MudContainer>

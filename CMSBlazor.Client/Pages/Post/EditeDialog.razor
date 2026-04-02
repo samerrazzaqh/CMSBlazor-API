@@ -1,0 +1,87 @@
+﻿@attribute [Authorize]
+
+
+
+<MudDialog>
+    <DialogContent>
+
+        <MudForm Model="@EditPostViewModel" @ref="@form" ValidationDelay="0">
+            <MudGrid>
+                <MudItem xs="12" sm="7">
+                    <MudCard>
+                        <MudCardContent>
+
+                            <MudTextField Lines="2" Label="Title"
+                                          @bind-Value="EditPostViewModel!.Title" For="@(() => EditPostViewModel!.Title)" />
+                            <br />
+
+                            <MudTextField Lines="5" Label="PostContent"
+                                          @bind-Value="EditPostViewModel.PostContent" For="@(() => EditPostViewModel.PostContent)" />
+                            <br />
+
+                            @if (EditPostViewModel.PostImg == null)
+                            {<MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Height="500px" Width="100%" Class="ml-2 mb-2" /> }
+                            else
+                            {<MudImage Style=" width:100%;" ObjectFit="ObjectFit.Fill" Height="500" Src="@pathImage" Elevation="25" Class="rounded-lg" />}
+
+                        <MudItem Style="margin-top:-50px;" xs="12" sm="6">
+                            <MudFileUpload Accept=".png, .jpg, .jpeg" T="IBrowserFile" FilesChanged="UploadImageCover">
+                                <ActivatorContent>
+                                    <MudIconButton HtmlTag="label"
+                                                   Color="Color.Inherit"
+                                                   Icon="@Icons.Material.Filled.PhotoCamera">
+                                    </MudIconButton>
+                                </ActivatorContent>
+                            </MudFileUpload>
+                        </MudItem>
+
+                            <hr />
+                            <br />
+
+                            @*<video controls="controls" width="600px" height="500px">
+                                      <source src="@postViewModel.PostImg" />
+                            </video>*@
+
+                            <iframe src=@EditPostViewModel.LinkVideo style="height:500px;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <MudTextField Label="LinkVideo"
+                                          @bind-Value="EditPostViewModel.LinkVideo" For="@(() => EditPostViewModel.LinkVideo)" />
+                            <br />
+
+                            <MudCheckBox @bind-Value="EditPostViewModel!.IsPublish" Size="Size.Medium" Color="Color.Primary"> Is Publish?</MudCheckBox>
+
+                            <hr />
+                            <br />
+
+                            <MudSelect Placeholder="Please Select Category" @bind-Value="@EditPostViewModel.CategoryId" Label="Category" Variant="Variant.Text" AnchorOrigin="Origin.BottomCenter">
+
+                                @foreach (var model in Categories.ToList())
+                                {
+                                    <MudSelectItem Value="@(model.CategoryId)">
+                                        @model.CatName
+                                    </MudSelectItem>
+                                }
+                            </MudSelect>
+                            <br />
+                            <br />
+                        </MudCardContent>
+                    </MudCard>
+                </MudItem>
+                <MudItem xs="12" sm="5">
+                    <MudPaper Class="pa-4 mud-height-full">
+                        <MudText Typo="Typo.subtitle2">Validation Summary</MudText>
+                        @if (ShowMessage)
+                        {
+                            <MudAlert Severity="Severity.Warning">@Message</MudAlert>
+                        }
+                    </MudPaper>
+                </MudItem>
+            </MudGrid>
+        </MudForm>
+
+
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(async () => await HandleEdite())">Edite</MudButton>
+    </DialogActions>
+</MudDialog>

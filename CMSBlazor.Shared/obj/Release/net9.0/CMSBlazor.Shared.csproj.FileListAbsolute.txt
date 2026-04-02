@@ -1,0 +1,12 @@
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/bin/Release/net9.0/CMSBlazor.Shared.deps.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/bin/Release/net9.0/CMSBlazor.Shared.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/bin/Release/net9.0/CMSBlazor.Shared.pdb
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Release/net9.0/CMSBlazor.Shared.csproj.AssemblyReference.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Release/net9.0/CMSBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Release/net9.0/CMSBlazor.Shared.AssemblyInfoInputs.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Release/net9.0/CMSBlazor.Shared.AssemblyInfo.cs
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Release/net9.0/CMSBlazor.Shared.csproj.CoreCompileInputs.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Release/net9.0/CMSBlazor.Shared.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Release/net9.0/refint/CMSBlazor.Shared.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Release/net9.0/CMSBlazor.Shared.pdb
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Release/net9.0/ref/CMSBlazor.Shared.dll

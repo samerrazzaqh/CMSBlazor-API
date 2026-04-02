@@ -1,0 +1,189 @@
+﻿@page "/listpostbycategory/{categoryId:int?}/{categoryName?}"
+@attribute [Authorize]
+
+
+<PageTitle>@CatName</PageTitle>
+<MudOverlay @bind-Visible="isVisible" DarkBackground="true" AutoClose="true">
+    <MudProgressCircular Color="Color.Primary" Size="Size.Medium" Indeterminate="true" />
+</MudOverlay>
+
+<MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
+    <MudGrid>
+
+        <MudGrid>
+            <MudItem xs="12" sm="12">
+                <MudPaper Class="pa-4 mud-theme-primary">
+                    <MudText Align="Align.Center" Typo="Typo.h4">@CatName</MudText>
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+
+
+
+        <MudPaper Style="background-color:transparent; padding-bottom:10px;" Class="d-flex justify-end flex-grow-1 gap-4" Elevation="0">
+            <MudToggleIconButton @bind-Toggled="@openEnd"
+                                 Icon="@Icons.Material.Filled.Menu" Color="@Color.Primary" Title="Off"
+                                 ToggledIcon="@Icons.Material.Filled.Close" ToggledColor="@Color.Primary" ToggledTitle="On" />
+        </MudPaper>
+        <MudItem xs="12" sm="12" md="12">
+
+            <MudPaper Width="100%;" Height="900px" Style="overflow:hidden; position:relative;">
+                <MudDrawerContainer Class="mud-height-full">
+
+
+
+                    @*=============================================================================================*@
+                    <MudDrawer @bind-Open="@openEnd" Anchor="Anchor.End" Elevation="0">
+                        <MudDrawerHeader>
+                            <MudText Typo="Typo.h6">Categories</MudText>
+                        </MudDrawerHeader>
+                        <MudNavMenu>
+                            @foreach (var Category in CategoryViewModels)
+                            {
+                                <MudNavLink OnClick="@((e) => GoListPostByCategory(@Category.CategoryId!,@Category.CatName!))" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.DataUsage">@Category.CatName</MudNavLink>
+                            }
+                        </MudNavMenu>
+                        @*-------------*@
+                        <MudDrawerHeader>
+                            <MudText Typo="Typo.h6">Hot Channels</MudText>
+                        </MudDrawerHeader>
+                        <MudNavMenu>
+                            <MudNavLink Href="https://www.foxnews.com" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Newspaper">Fox News</MudNavLink>
+                            <MudNavLink Href="https://www.msnbc.com" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Newspaper">MSNBC</MudNavLink>
+                            <MudNavLink Href="https://www.bbc.com" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Newspaper">BBC News</MudNavLink>
+                            <MudNavLink Href="https://www.skysports.com" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Newspaper">Sky Sports</MudNavLink>
+                            <MudNavLink Href="https://edition.cnn.com" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Newspaper">CNN </MudNavLink>
+                        </MudNavMenu>
+
+                        @*-------------*@
+                        <MudDrawerHeader>
+                            <MudText Typo="Typo.h6">Social Media</MudText>
+                        </MudDrawerHeader>
+
+                        <MudCardActions>
+                            <MudGrid>
+                                <MudItem xs="12">
+                                    <MudButton Style="background-color: rgb(66 103 178);color:white;"
+                                               Class="d-flex align-center justify-center mud-width-full "
+                                               Variant="Variant.Filled" Href="">
+                                        FaceBook
+                                    </MudButton>
+                                </MudItem>
+                                <MudItem xs="12">
+                                    <MudButton Style="background-color: rgb(219 68 55); color: white;"
+                                               Class="d-flex align-center justify-center mud-width-full "
+                                               Variant="Variant.Filled" Href="">
+                                        Google
+                                    </MudButton>
+                                </MudItem>
+                                <MudItem xs="12">
+                                    <MudButton Style="background-color: rgb(29 161 242); color: white;"
+                                               Class="d-flex align-center justify-center mud-width-full "
+                                               Variant="Variant.Filled" Href="">
+                                        Twitter
+                                    </MudButton>
+                                </MudItem>
+                                <MudItem xs="12">
+                                    <MudButton Style="background-color: rgb(255 0 0); color: white;"
+                                               Class="d-flex align-center justify-center mud-width-full "
+                                               Variant="Variant.Filled" Href="">
+                                        YouTube
+                                    </MudButton>
+                                </MudItem>
+                            </MudGrid>
+                        </MudCardActions>
+
+                    </MudDrawer>
+
+                    @*===========================================================================*@
+                    <div class="d-flex justify-center align-center mud-height-full">
+
+                        <MudItem xs="12" sm="12" md="11">
+
+
+                            <div id="another_unique_identifier" class="ma-0" style="height:900px; width:100%; overflow: auto;">
+
+
+
+                                <MudGrid>
+                                    <MudItem xs="12" sm="12" md="10">
+
+                                        @foreach (var cat in PostViewModels)
+                                        {
+                                            <MudCard>
+                                                <MudGrid>
+                                                    <MudItem xs="12" sm="12" md="6">
+                                                        <MudCard>
+                                                            @{
+                                                                string path = $"{CMSConstant.BaseApiAddress+cat.PostImg}";
+                                                            }
+                                                            <MudCardMedia Image="@path" Height="400"/>
+                                                        </MudCard>
+                                                    </MudItem>
+
+                                                    <MudItem xs="12" sm="12" md="6">
+                                                        <MudCard>
+                                                            <iframe src=@cat.LinkVideo style="height:400px;"
+                                                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                        </MudCard>
+                                                    </MudItem>
+
+                                                </MudGrid>
+                                                <MudCardContent>
+                                                    <MudText Typo="Typo.h5">@cat.Title</MudText>
+                                                    <MudButton OnClick="@((e) => ReadMore(@cat.PostId!))" Variant="Variant.Text" Color="Color.Primary">Learn More</MudButton>
+                                                </MudCardContent>
+                                            </MudCard>
+                                            <br />
+                                        }
+
+
+
+                                        <div style="margin-top:25px;" class="d-flex flex-column align-center">
+                                            <MudButton OnClick="@GetMorePost" Disabled="@isVisiblebtn" Variant="Variant.Filled" Color="Color.Primary">
+                                                @if (isVisiblebtn)
+                                                {
+                                                    <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true" />
+                                                    <MudText Class="ms-2">Loading ...</MudText>
+                                                }
+                                                else
+                                                {
+                                                    <MudText>Load More</MudText>
+                                                }
+                                            </MudButton>
+                                        </div>
+
+                                    </MudItem>
+                                </MudGrid>
+
+
+
+
+                            </div>
+                        </MudItem>
+
+                    </div>
+                </MudDrawerContainer>
+            </MudPaper>
+
+        </MudItem>
+
+
+
+
+
+
+    </MudGrid>
+</MudContainer>
+
+
+@code{
+
+
+    [CascadingParameter]
+    public bool Rtl { get; set; }
+
+    bool openEnd = true;
+
+
+}

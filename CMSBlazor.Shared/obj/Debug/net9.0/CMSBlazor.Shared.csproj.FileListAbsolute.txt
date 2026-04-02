@@ -1,0 +1,36 @@
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/bin/Debug/net9.0/CMSBlazor.Shared.deps.json
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/bin/Debug/net9.0/CMSBlazor.Shared.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/bin/Debug/net9.0/CMSBlazor.Shared.pdb
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.csproj.AssemblyReference.cache
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.AssemblyInfoInputs.cache
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.AssemblyInfo.cs
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.csproj.CoreCompileInputs.cache
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/refint/CMSBlazor.Shared.dll
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.pdb
+/Users/samerrazzaq/Desktop/untitled folder/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/ref/CMSBlazor.Shared.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/bin/Debug/net9.0/CMSBlazor.Shared.deps.json
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/bin/Debug/net9.0/CMSBlazor.Shared.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/bin/Debug/net9.0/CMSBlazor.Shared.pdb
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.csproj.AssemblyReference.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.AssemblyInfoInputs.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.AssemblyInfo.cs
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.csproj.CoreCompileInputs.cache
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/refint/CMSBlazor.Shared.dll
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.pdb
+/Volumes/Samer Disk/Samer 1/IT/Languages Programming/C#/Web/MAC/Blazor/BlazorWeb/CMSBLAZOR/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/ref/CMSBlazor.Shared.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/bin/Debug/net9.0/CMSBlazor.Shared.deps.json
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/bin/Debug/net9.0/CMSBlazor.Shared.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/bin/Debug/net9.0/CMSBlazor.Shared.pdb
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.csproj.AssemblyReference.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.AssemblyInfoInputs.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.AssemblyInfo.cs
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.csproj.CoreCompileInputs.cache
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/refint/CMSBlazor.Shared.dll
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/CMSBlazor.Shared.pdb
+/Users/samerrazzaq/Desktop/Blazor API/CMSBlazor/CMSBlazor.Shared/obj/Debug/net9.0/ref/CMSBlazor.Shared.dll

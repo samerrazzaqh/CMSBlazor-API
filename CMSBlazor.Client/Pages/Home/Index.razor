@@ -1,0 +1,368 @@
+﻿@page "/"
+@attribute [Authorize]
+@rendermode InteractiveWebAssembly
+@* @rendermode InteractiveAuto *@
+@using CMSBlazor.Client.Helpers
+@{
+    FormatDate formatDate = new FormatDate();
+}
+<PageTitle>Home</PageTitle>
+<MudOverlay @bind-Visible="isVisible" DarkBackground="true" AutoClose="true">
+    <MudProgressCircular Color="Color.Primary" Size="Size.Medium" Indeterminate="true" />
+</MudOverlay>
+
+
+<MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
+    <MudGrid>
+
+
+        <MudItem xs="12" sm="12" md="12">
+
+            <MudCarousel @bind-SelectedIndex="@selectedIndex" Class="mud-width-full" Style="height:400px;" ShowArrows="@arrows" ShowBullets="@bullets" EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
+                @foreach (var CarouselModel in CarouselModel)
+                {
+                    <MudCarouselItem Class="cursor-pointer" @onclick=@((e) => ReadMore(@CarouselModel.PostId!)) Transition="transition" Color="@Color.Transparent">
+                        <div class="d-flex" style="height:100%">
+                            @{
+                                string path = $"{CMSConstant.BaseApiAddress}{CarouselModel.PostImg}";
+                            }
+                            <MudImage Style=" width:100%;" ObjectFit="ObjectFit.Fill" Height="400" Src="@path" Elevation="25" Class="rounded-lg"/>
+                        </div>
+                    </MudCarouselItem>
+                }
+            </MudCarousel>
+
+        </MudItem>
+
+
+
+        <MudPaper Style="background-color:transparent; padding-bottom:10px;" Class="d-flex justify-start flex-grow-1 gap-4" Elevation="0">
+            <MudToggleIconButton @bind-Toggled="@openStart"
+                                 Icon="@Icons.Material.Filled.Menu" Color="@Color.Primary" Title="Off"
+                                 ToggledIcon="@Icons.Material.Filled.Close" ToggledColor="@Color.Primary" ToggledTitle="On" />
+        </MudPaper>
+
+        <MudPaper Style="background-color:transparent; padding-bottom:10px;" Class="d-flex justify-end flex-grow-1 gap-4" Elevation="0">
+            <MudToggleIconButton @bind-Toggled="@openEnd"
+                                 Icon="@Icons.Material.Filled.Menu" Color="@Color.Primary" Title="Off"
+                                 ToggledIcon="@Icons.Material.Filled.Close" ToggledColor="@Color.Primary" ToggledTitle="On" />
+        </MudPaper>
+
+
+        <MudItem xs="12" sm="12" md="12">
+
+            <MudPaper Width="100%;" Height="900px" Style="overflow:hidden; position:relative;">
+                <MudDrawerContainer Class="mud-height-full">
+
+                    <MudDrawer @bind-Open="@openStart" Anchor="Anchor.Start" Elevation="0">
+                        <MudDrawerHeader>
+                            <MudText Typo="Typo.h6">Most Popular</MudText>
+                        </MudDrawerHeader>
+
+                        @foreach (var MostPopularPost in MostPopularPost)
+                        {
+                            <MudGrid Class="cursor-pointer" @onclick=@((e) => ReadMore(@MostPopularPost.PostId!))>
+                                <MudItem xs="12">
+                                    <MudPaper Style="background-color:transparent;" Class="pa-4">
+                                        <MudStack Row="true">
+                                            @{
+                                                string path = $"{CMSConstant.BaseApiAddress}{MostPopularPost.PostImg}";
+                                            }
+                                            <MudImage Width="50" Height="50" Src="@path" Alt="Mony the dog" Elevation="25" Class="rounded-lg"/>
+                                            <MudStack Justify="Justify.Center" Spacing="0">
+                                                <MudText Typo="Typo.body1">@MostPopularPost.Title</MudText>
+                                                <MudStack Row="true">
+                                                    <MudIcon Style="margin-right:10px;" Icon="@Icons.Material.Filled.Visibility" Color="Color.Default"/>
+                                                    @MostPopularPost.PostViews
+                                                </MudStack>
+
+                                            </MudStack>
+                                        </MudStack>
+                                    </MudPaper>
+                                </MudItem>
+                            </MudGrid>
+                        }
+
+
+
+
+
+
+                        @*-------------*@
+                        <MudDrawerHeader>
+                            <MudText Typo="Typo.h6">Latest Videos</MudText>
+                        </MudDrawerHeader>
+
+                        @foreach (var LatestVideos in LatestVideos)
+                        {
+                            <MudGrid Class="cursor-pointer" @onclick=@((e) => ReadMore(@LatestVideos.PostId!))>
+                                <MudItem xs="12">
+                                    <MudPaper Style="background-color:transparent;" Class="pa-4">
+                                        <MudStack Row="true">
+                                            @{
+                                                string path = $"{CMSConstant.BaseApiAddress}{LatestVideos.PostImg}";
+                                            }
+                                            <MudImage Width="50" Height="50" Src="@path" Alt="Mony the dog" Elevation="25" Class="rounded-lg"/>
+                                            <MudStack Justify="Justify.Center" Spacing="0">
+                                                <MudText Typo="Typo.body1">@LatestVideos.Title</MudText>
+                                                <MudText Typo="Typo.body1"> @formatDate.Date(LatestVideos!.PostDate)</MudText>
+                                            </MudStack>
+                                        </MudStack>
+                                    </MudPaper>
+                                </MudItem>
+                            </MudGrid>
+                        }
+
+                    </MudDrawer>
+
+                    @*=============================================================================================*@
+                    <MudDrawer @bind-Open="@openEnd" Anchor="Anchor.End" Elevation="0">
+                        <MudDrawerHeader>
+                            <MudText Typo="Typo.h6">Categories</MudText>
+                        </MudDrawerHeader>
+                        <MudNavMenu>
+                            @foreach (var Category in CategoryViewModels)
+                            {
+                                <MudNavLink OnClick="@((e) => ListPostByCategory(@Category.CategoryId!,@Category.CatName!))" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.DataUsage">@Category.CatName</MudNavLink>
+                            }
+                        </MudNavMenu>
+                        @*-------------*@
+                        <MudDrawerHeader>
+                            <MudText Typo="Typo.h6">Hot Channels</MudText>
+                        </MudDrawerHeader>
+                        <MudNavMenu>
+                            <MudNavLink Href="https://www.foxnews.com" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Newspaper">Fox News</MudNavLink>
+                            <MudNavLink Href="https://www.msnbc.com" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Newspaper">MSNBC</MudNavLink>
+                            <MudNavLink Href="https://www.bbc.com" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Newspaper">BBC News</MudNavLink>
+                            <MudNavLink Href="https://www.skysports.com" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Newspaper">Sky Sports</MudNavLink>
+                            <MudNavLink Href="https://edition.cnn.com" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Newspaper">CNN </MudNavLink>
+                        </MudNavMenu>
+
+                        @*-------------*@
+                        <MudDrawerHeader>
+                            <MudText Typo="Typo.h6">Social Media</MudText>
+                        </MudDrawerHeader>
+
+                        <MudCardActions>
+                            <MudGrid>
+                                <MudItem xs="12">
+                                    <MudButton Style="background-color: rgb(66 103 178);color:white;"
+                                               Class="d-flex align-center justify-center mud-width-full "
+                                               Variant="Variant.Filled" Href="">
+                                        FaceBook
+                                    </MudButton>
+                                </MudItem>
+                                <MudItem xs="12">
+                                    <MudButton Style="background-color: rgb(219 68 55); color: white;"
+                                               Class="d-flex align-center justify-center mud-width-full "
+                                               Variant="Variant.Filled" Href="">
+                                        Google
+                                    </MudButton>
+                                </MudItem>
+                                <MudItem xs="12">
+                                    <MudButton Style="background-color: rgb(29 161 242); color: white;"
+                                               Class="d-flex align-center justify-center mud-width-full "
+                                               Variant="Variant.Filled" Href="">
+                                        Twitter
+                                    </MudButton>
+                                </MudItem>
+                                <MudItem xs="12">
+                                    <MudButton Style="background-color: rgb(255 0 0); color: white;"
+                                               Class="d-flex align-center justify-center mud-width-full "
+                                               Variant="Variant.Filled" Href="">
+                                        YouTube
+                                    </MudButton>
+                                </MudItem>
+                            </MudGrid>
+                        </MudCardActions>
+
+                    </MudDrawer>
+
+                    @*===========================================================================*@
+                    <div class="d-flex justify-center align-center mud-height-full">
+
+                        <MudItem xs="12" sm="12" md="7">
+
+                            <div id="another_unique_identifier" class="ma-0" style="height: 150px; overflow: auto;">
+                                <MudGrid Style="padding-top:30px; padding-right:30px;" Spacing="3" Justify="Justify.FlexStart">
+                                    <MudItem Style="margin-right: 30px;" xs="12" sm="12" md="7">
+                                        <MudStack Justify="Justify.FlexStart" Row="true">
+                                            @{
+                                                foreach (var StoryModel in StoryModel)
+                                                {
+                                                    string path = $"{CMSConstant.BaseApiAddress}{StoryModel.PostImg}";
+                                                    <MudAvatar Class="cursor-pointer" @onclick=@((e) => ReadMore(@StoryModel.PostId!)) Elevation="5" Style="height:100px; width:100px; font-size:2rem;" Color="Color.Primary">
+                                                        <MudImage Src="@path"></MudImage>
+                                                    </MudAvatar>
+                                                   }
+                                            }
+                                        </MudStack>
+                                    </MudItem>
+                                </MudGrid>
+                            </div>
+
+                            <div id="another_unique_identifier" class="ma-0" style="height:800px; overflow: auto;">
+
+                                <MudGrid>
+                                    @foreach (var StoryModel in StoryModel)
+                                    {
+                                        @if (StoryModel.PostId % 2 == 1 || StoryModel.PostId % 2 == 0)
+                                        {
+                                            <MudItem xs="12" sm="12" md="4">
+                                                <MudCard>
+                                                    @{
+                                                        string path = $"{CMSConstant.BaseApiAddress}{StoryModel.PostImg}";
+                                                        <MudCardMedia Image="@path" Height="200" />
+                                                    }
+                                                    <MudCardContent>
+                                                        <MudText Typo="Typo.h5">@StoryModel.Title!</MudText>
+                                                    </MudCardContent>
+                                                    <MudCardActions>
+                                                        <MudButton OnClick="@((e) => ReadMore(@StoryModel.PostId!))" Variant="Variant.Text" Color="Color.Primary">Read More</MudButton>
+                                                    </MudCardActions>
+                                                </MudCard>
+                                            </MudItem>
+                                        }
+                                    }
+
+
+
+                                </MudGrid>
+
+
+                                <div style="margin-top: 25px; margin-bottom: 50px;" class="d-flex flex-column align-center">
+
+                                    <MudStack Row="true">
+                                        <MudPaper Class="pa-0">
+                                            <MudButton OnClick="@GetMorePost" Disabled="@isVisiblebtn" Variant="Variant.Filled" Color="Color.Primary">
+                                                @if (isVisiblebtn)
+                                                {
+                                                    <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true" />
+                                                    <MudText Class="ms-2">Loading ...</MudText>
+                                                }
+                                                else
+                                                {
+                                                    <MudText>Load More</MudText>
+                                                }
+                                            </MudButton>
+                                        </MudPaper>
+                                    </MudStack>
+
+
+                                </div>
+
+                            </div>
+
+                        </MudItem>
+
+                    </div>
+                </MudDrawerContainer>
+            </MudPaper>
+
+        </MudItem>
+
+
+
+
+
+
+
+        @*Footer===============*@
+        <MudItem xs="12" sm="12" md="12">
+            <MudGrid>
+
+
+                <MudItem sm="4">
+                    <MudCard>
+                        <MudCardHeader>
+                            <CardHeaderContent>
+                                <MudText Typo="Typo.h6">In the company</MudText>
+                            </CardHeaderContent>
+                        </MudCardHeader>
+                        <hr />
+                        <MudCardContent Style="height: 250px;">
+                            <MudStack>
+                                <MudLink Href="https://careers.microsoft.com/v2/global/en/home.html">Jobs & Career</MudLink>
+                                <MudLink Href="https://www.microsoft.com/de-de/about">The company Microsoft</MudLink>
+                                <MudLink Href="https://news.microsoft.com/de-de/">Company news</MudLink>
+                                <MudLink Href="https://privacy.microsoft.com/de-de">Data protection at Microsoft</MudLink>
+                                <MudLink Href="https://www.microsoft.com/en-us/investor">Investors</MudLink>
+                            </MudStack>
+                        </MudCardContent>
+                    </MudCard>
+                </MudItem>
+
+                <MudItem sm="4">
+                    <MudCard>
+                        <MudCardHeader>
+                            <CardHeaderContent>
+                                <MudText Typo="Typo.h6">Site Course Programs</MudText>
+                            </CardHeaderContent>
+                        </MudCardHeader>
+                        <hr />
+                        <MudCardContent Style="height: 250px;">
+                            <MudStack>
+                                <MudLink Href="https://www.coursera.org/?irclickid=UmqQomxIQxyPTg:V9Mwcc0e-UkF2IY1VB08T280&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=1359419&utm_content=b2c">Coursera</MudLink>
+                                <MudLink Href="https://www.udemy.com/courses/free/?utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=bt30QTxEyjA&ranMID=47901&ranEAID=bt30QTxEyjA&ranSiteID=bt30QTxEyjA-w39.xiq6jDmRu0zqdtDWtw">Udemy</MudLink>
+                                <MudLink Href="https://www.udacity.com/?irclickid=yPEQZVxIVxyPWMXUVWy2lTICUkF2IdS1B08T280&irgwc=1&utm_source=affiliate&utm_medium=&aff=1359419&utm_term=&utm_campaign=_free-online-education-sites_&utm_content=&adid=786224">Udacity</MudLink>
+                                <MudLink Href="https://www.edx.org/?irclickid=U4Byo8xIVxyPWMXUVWy2lTICUkF2IfxRB08T280&utm_source=affiliate&utm_medium=guru99&utm_campaign=Online%20Tracking%20Link_&utm_content=ONLINE_TRACKING_LINK&irgwc=1">Edx</MudLink>
+                                <MudLink Href="https://www.masterclass.com/?irclickid=WuIV5wxIVxyPWMXUVWy2lTICUkF2IfzdB08T280&utm_source=impact&utm_medium=affiliate&utm_campaign=&utm_content=1317543&utm_term=1359419&irgwc=1">MasterClass</MudLink>
+                            </MudStack>
+                        </MudCardContent>
+                    </MudCard>
+                </MudItem>
+
+                <MudItem sm="4">
+                    <MudCard>
+                        <MudCardHeader>
+                            <CardHeaderContent>
+                                <MudText Typo="Typo.h6">Company Microsoft</MudText>
+                            </CardHeaderContent>
+                        </MudCardHeader>
+                        <hr />
+                        <MudCardContent Style="height: 250px;">
+                            <MudStack>
+                                <MudLink Href="https://www.microsoft.com/de-de/microsoft-cloud">Microsoft Cloud</MudLink>
+                                <MudLink Href="https://www.microsoft.com/de-de/security">Microsoft Security</MudLink>
+                                <MudLink Href="https://azure.microsoft.com/de-de/">Azure</MudLink>
+                                <MudLink Href="https://www.microsoft.com/de-de/microsoft-365/business/">Microsoft 365</MudLink>
+                                <MudLink Href="https://www.microsoft.com/de-de/industry">Microsoft industries</MudLink>
+                            </MudStack>
+                        </MudCardContent>
+                    </MudCard>
+                </MudItem>
+
+                <MudItem xs="12">
+                    <MudPaper Class="d-flex align-center justify-center mud-width-full py-2">
+                        <MudText Align="Align.Justify"><b>Copyright © 2023</b> All rights reserved This template is made with by Colorlib.</MudText>
+                    </MudPaper>
+                </MudItem>
+
+            </MudGrid>
+        </MudItem>
+
+
+    </MudGrid>
+</MudContainer>
+
+
+
+
+
+@code{
+    private int selectedIndex = 0;
+    private bool arrows = true;
+    private bool bullets = true;
+    private bool enableSwipeGesture = true;
+    private bool autocycle = true;
+    private Transition transition = Transition.Slide;
+
+
+    [CascadingParameter]
+    public bool Rtl { get; set; }
+
+    bool openStart = true;
+    bool openEnd = true;
+
+
+}

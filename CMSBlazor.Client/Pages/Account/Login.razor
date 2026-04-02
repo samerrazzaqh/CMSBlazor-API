@@ -1,0 +1,110 @@
+﻿@page "/login"
+@*@page "/login/{StringExternalLogin}"*@
+@* @rendermode InteractiveAuto *@
+@* @attribute [StreamRendering] *@
+@using CMSBlazor.Client.Helpers
+
+<MudContainer Style="padding-top:inherit;" MaxWidth="MaxWidth.Large">
+
+
+
+    <MudGrid>
+        <MudItem xs="12" sm="12">
+            <MudPaper Class="pa-4 mud-theme-primary">
+                <MudText Align="Align.Center" Typo="Typo.h4">Login</MudText>
+            </MudPaper>
+        </MudItem>
+    </MudGrid>
+
+
+
+
+
+
+    <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
+        <DataAnnotationsValidator />
+        <MudGrid>
+            <MudItem xs="12" sm="7">
+                <MudCard>
+                    <MudCardContent>
+                        <MudTextField Label="Email Or UserName"
+                                      @bind-Value="loginModel.EmailOrUserName" For="@(() => loginModel.EmailOrUserName)" />
+
+                        <MudTextField Label="Password" Class="mt-3"
+                                      @bind-Value="loginModel.Password" For="@(() => loginModel.Password)"
+                                      InputType="@PasswordInput" Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" OnAdornmentClick="ButtonTestclick" />
+
+                    </MudCardContent>
+                    <MudCardActions>
+                        <div class="d-flex">
+                            <MudButton Href="/sendconfirmationemail" Color="Color.Primary" Class="ml-auto">Confirmation Email!</MudButton>
+                            <MudButton Href="/forgotpasswordbyemail" Color="Color.Primary" Class="ml-auto">Forgot Password?</MudButton>
+                        </div>
+
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Login</MudButton>
+                    </MudCardActions>
+
+
+                    <MudCardActions>
+                        <MudGrid>
+                            <MudItem xs="12" sm="6">
+                                <MudButton Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto" Href="/register">
+                                    Register
+                                </MudButton>
+                            </MudItem>
+                        </MudGrid>
+                    </MudCardActions>
+
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" sm="5">
+                <MudPaper Class="pa-4 mud-height-full">
+                    <MudText Typo="Typo.subtitle2">Validation Summary</MudText>
+                    @if (ShowMessage)
+                    {
+                        <MudAlert Severity="Severity.Warning">@Message</MudAlert>
+                    }
+                    else
+                    {
+                        <MudText Color="@Color.Error">
+                            <ValidationSummary />
+                        </MudText>
+                    }
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+    </EditForm>
+
+
+    @*ExternalLogin=============================================================*@
+    <MudGrid>
+        <MudItem xs="12" sm="7">
+
+            <MudCardActions>
+                <MudGrid>
+                    <MudItem xs="12" sm="6">
+                        @{
+                            string pathfacebook = $"{CMSConstant.BaseApiAddress}api/Account/facebook-login?returnurl={CMSConstant.BaseApiAddressClient}";
+                        }
+                        <MudButton Style="background-color: rgb(66 103 178);color:white;"
+                                   Class="d-flex align-center justify-center mud-width-full "
+                                   Variant="Variant.Filled" Href="@pathfacebook">
+                            FaceBook
+                        </MudButton>
+                    </MudItem>
+                    <MudItem xs="12" sm="6">
+                        @{
+                            string pathgoogle = $"{CMSConstant.BaseApiAddress}api/Account/google-login?returnurl={CMSConstant.BaseApiAddressClient}";
+                        }
+                        <MudButton Style="background-color: rgb(219 68 55); color: white;"
+                                   Class="d-flex align-center justify-center mud-width-full "
+                                   Variant="Variant.Filled" Href="@pathgoogle">
+                            Google
+                        </MudButton>
+                    </MudItem>
+                </MudGrid>
+            </MudCardActions>
+            @*==========================================================================*@
+        </MudItem>
+    </MudGrid>
+</MudContainer>

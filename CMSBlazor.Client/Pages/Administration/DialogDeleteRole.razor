@@ -1,0 +1,18 @@
+﻿<MudDialog>
+    <DialogContent>
+
+        <MudItem xs="12" sm="12">
+            <MudPaper Class="pa-4 mud-height-full">
+                @if (ShowMessage)
+                {
+                    <MudAlert Severity="Severity.Warning">@Message</MudAlert>
+                }
+            </MudPaper>
+        </MudItem>
+
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Color="Color.Primary" OnClick="Submit">Ok</MudButton>
+    </DialogActions>
+</MudDialog>

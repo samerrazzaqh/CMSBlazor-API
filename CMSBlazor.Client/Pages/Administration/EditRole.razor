@@ -1,0 +1,127 @@
+﻿@page "/editrole/{Id}"
+@layout MainLayout
+@attribute [Authorize]
+@*@attribute [Authorize(Roles = "Super Admin")]*@
+@*@inject IDialogService Dialog*@
+
+
+<PageTitle>Edit Role</PageTitle>
+
+@{
+    if (_SuperAdmin != null || _Admin != null)
+    {
+        if (_policyEdit == true)
+        {
+            <MudContainer Style="padding-top:inherit;" MaxWidth="MaxWidth.Large">
+
+                <MudGrid>
+                    <MudItem xs="12" sm="12">
+                        <MudPaper Class="pa-4 mud-theme-primary">
+                            <MudText Align="Align.Center" Typo="Typo.h4">@EditRoleViewModel!.RoleName</MudText>
+                        </MudPaper>
+                    </MudItem>
+                </MudGrid>
+
+
+                <MudContainer Style="padding-top:10px;" MaxWidth="MaxWidth.Large">
+
+
+
+
+                    <MudGrid>
+                        <MudItem xs="12" sm="12" md="12">
+
+
+
+
+                            <EditForm Model="@EditRoleViewModel" OnValidSubmit="HandleEditRole">
+                                <DataAnnotationsValidator />
+                                <MudGrid>
+                                    <MudItem xs="12" sm="7">
+                                        <MudCard>
+                                            <MudCardContent>
+
+                                                <MudPaper Style="margin-bottom:10px;" Class="pa-4 mud-height-full">
+
+                                                    <MudTextField Label="Role Name"
+                                                                  @bind-Value="EditRoleViewModel!.RoleName" For="@(() => EditRoleViewModel!.RoleName)" />
+                                                </MudPaper>
+
+                                                <MudItem xs="12" sm="12">
+                                                    <MudPaper Style="margin-bottom:10px;" Class="pa-1 mud-theme-primary">
+                                                        <MudText Align="Align.Center" Typo="Typo.h6">
+                                                            User in This Role
+                                                        </MudText>
+                                                    </MudPaper>
+
+                                                    <div id="another_unique_identifier" class="ma-0" style="height:300px; overflow: auto;">
+                                                        <MudPaper Style="padding:10px;" Elevation="1">
+                                                            @if (EditRoleViewModel!.Users == null)
+                                                            {
+                                                                <MudSkeleton Animation="Animation.False" />
+                                                            }
+                                                            else
+                                                            {
+                                                                @foreach (var Users in EditRoleViewModel.Users.ToList())
+                                                                {
+                                                                    <MudText Typo="Typo.h6" Align="Align.Start">@Users</MudText>
+                                                                    <hr />
+                                                                }
+                                                            }
+                                                        </MudPaper>
+                                                        <MudScrollToTop TopOffset="100" Selector="#another_unique_identifier" Style="z-index:2001;">
+                                                            <div class="mud-theme-secondary px-3 py-6 mud-elevation-16 rounded-xl fixed" style="bottom:20px;left:20px;">Go Top</div>
+                                                        </MudScrollToTop>
+
+
+                                                    </div>
+
+
+                                                </MudItem>
+
+
+
+                                            </MudCardContent>
+                                            <MudCardActions>
+                                                <div class="d-flex">
+                                                    <MudButton OnClick="@((e) => AddorRemoveUser(maxWidth,EditRoleViewModel!))" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Add or remove users from this role</MudButton>
+                                                </div>
+                                                <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Submit</MudButton>
+                                            </MudCardActions>
+
+
+                                        </MudCard>
+                                    </MudItem>
+                                    <MudItem xs="12" sm="5">
+                                        <MudPaper Class="pa-4 mud-height-full">
+                                            <MudText Typo="Typo.subtitle2">Validation Summary</MudText>
+                                            @if (ShowMessage)
+                                            {
+                                                <MudAlert Severity="Severity.Warning">@Message</MudAlert>
+                                            }
+                                        </MudPaper>
+                                    </MudItem>
+                                </MudGrid>
+                            </EditForm>
+
+
+
+
+
+                        </MudItem>
+
+                    </MudGrid>
+
+
+
+
+
+                </MudContainer>
+
+            </MudContainer>
+        }
+
+    }
+}
+
+

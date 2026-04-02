@@ -1,0 +1,70 @@
+﻿@inherits LayoutComponentBase
+<MudRTLProvider RightToLeft="@_rightToLeft">
+    <MudDialogProvider />
+    <MudSnackbarProvider />
+    <MudPopoverProvider />
+    <MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme" />
+
+
+
+    <MudLayout>
+        <MudAppBar Elevation="0">
+            <MudIconButton Href="/" Icon="@Icons.Material.Filled.Home" Color="Color.Inherit" Edge="Edge.Start" />
+            <MudSpacer />
+
+
+            <AuthorizeView>
+                <Authorized>
+                    <MudMenu Label="Pages" EndIcon="@Icons.Material.Filled.KeyboardArrowDown" Color="Color.Inherit">
+                        <MudMenuItem Href="/archive">Archive</MudMenuItem>
+                        <MudMenuItem Href="">About</MudMenuItem>
+                        <MudMenuItem Href="">Contact</MudMenuItem>
+                    </MudMenu>
+                    <MudMenu Icon="@Icons.Material.Outlined.PeopleAlt" Color="Color.Inherit">
+                        <MudMenuItem Href="/profile">
+                            <MudIcon Color="Color.Inherit" Icon="@Icons.Material.Filled.Settings" />
+                            Setting
+                        </MudMenuItem>
+                        <MudMenuItem Href="/logout">
+                            <MudIcon Color="Color.Inherit" Icon="@Icons.Material.Sharp.Logout" />
+                            Logout
+                        </MudMenuItem>
+                    </MudMenu>
+                </Authorized>
+
+                <NotAuthorized>
+                    <MudButton Href="/login"
+                               EndIcon="@Icons.Material.Sharp.Person"
+                               Color="Color.Inherit">
+                    </MudButton>
+                </NotAuthorized>
+
+            </AuthorizeView>
+
+            <MudToggleIconButton @bind-Toggled="@_isDarkMode"
+                                 Icon="@Icons.Material.Filled.DarkMode" Color="@Color.Inherit" Title="DarkMode"
+                                 ToggledIcon="@Icons.Material.Filled.LightMode" ToggledColor="@Color.Inherit" ToggledTitle="LightMode" />
+
+            <MudToggleIconButton @bind-Toggled="@_rightToLeft"
+                                 Icon="@Icons.Material.Filled.Language" Color="@Color.Inherit" Title="Language"
+                                 ToggledIcon="@Icons.Material.Filled.Language" ToggledColor="@Color.Inherit" ToggledTitle="Language" />
+
+        </MudAppBar>
+
+
+
+        <MudMainContent>
+            @Body
+        </MudMainContent>
+
+
+    </MudLayout>
+</MudRTLProvider>
+
+
+@code {
+
+        private bool _rightToLeft = false;
+        private MudTheme _theme = new();
+        private bool _isDarkMode = true;
+    }

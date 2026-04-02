@@ -1,0 +1,57 @@
+﻿@attribute [Authorize]
+
+
+
+<MudDialog>
+    <DialogContent>
+
+
+        @if (RolesUsers == null)
+        {
+            <MudPaper Class="pa-4 ma-2" Elevation="0">
+                <MudText Typo="Typo.h5">Not Found Item</MudText>
+            </MudPaper>
+        }
+        else
+        {
+            <MudDataGrid Filterable="true" QuickFilter="@_quickFilter" Bordered="true"
+                         Outlined="true" T="RolesUser" Items="@RolesUsers" SortMode="@_sortMode">
+
+                <ToolBarContent>
+                    <MudSpacer />
+                    <MudTextField @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
+                                  AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+                </ToolBarContent>
+
+
+                <Columns>
+                    <PropertyColumn Property="x => x!.RoleName" Title="RoleName" />
+
+                    <TemplateColumn CellClass="d-flex justify-end">
+                        <CellTemplate>
+                            <MudStack Row>
+                                <MudCheckBox @onclick="@((e) => CheckEdite(@context.Item!))" @bind-Value="@context.Item!.IsSelected" Color="Color.Primary"></MudCheckBox>
+                            </MudStack>
+                        </CellTemplate>
+                    </TemplateColumn>
+                </Columns>
+
+
+
+                <PagerContent>
+                    <MudDataGridPager T="RolesUser" />
+                </PagerContent>
+
+            </MudDataGrid>
+
+
+
+        }
+
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Edite" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto">Update</MudButton>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+    </DialogActions>
+</MudDialog>
+

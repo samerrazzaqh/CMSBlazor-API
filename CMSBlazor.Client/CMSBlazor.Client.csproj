@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.0" PrivateAssets="all" />
+        <PackageReference Include="MudBlazor" Version="8.15.0" />
+
+        <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.0" />
+        <PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="10.0.0" />
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="10.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CMSBlazor.Shared\CMSBlazor.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\post\0dbf7a58-8d69-4514-95f0-735524e03f1fImagePostae4f3d60-8320-45ad-9a03-6f641c85b82a.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\23091e7a-0272-4267-8b90-800ddd65cd10ImagePost77731ddb-7071-40c6-8eef-4883292db2fb.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\3765278f-7362-4423-8c30-504c87a8b56bImagePost10d8c15d-63ab-4c08-8ca7-b4783b01ed17.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\3765278f-7362-4423-8c30-504c87a8b56bImagePostb36e5d83-2b25-4117-9c22-b74b89234ab1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\3765278f-7362-4423-8c30-504c87a8b56bImagePostce2d2018-ddca-48a7-8c25-5c058d2ea2e2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\40ace457-c2b0-4299-9239-4940512f521cImagePost7609cbe0-490d-4692-bcd2-b6f276e700e4.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\40ace457-c2b0-4299-9239-4940512f521cImagePostf244483d-8b45-46ac-8ce4-f54608bbea5a.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\9e7342ef-6b10-414c-9e49-4969abee9419ImagePoste6998f71-3dd0-47be-bd90-e51e5c98ea67.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\9e7342ef-6b10-414c-9e49-4969abee9419ImagePoste97b2efa-b113-42d7-885a-ee8f205b95a3.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\cbaef99d-b296-4667-b486-0f719e4e7c59ImagePost81730665-652f-4e87-986b-7debfe95fb72.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\cbaef99d-b296-4667-b486-0f719e4e7c59ImagePostc31e53d4-0635-4c4f-ae49-0644e8b79d86.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\d3264ef1-0a75-4f45-bc53-f62777fe3d18ImagePostbfcaac5b-50f0-41d5-b5af-a3cb98afc745.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\d3264ef1-0a75-4f45-bc53-f62777fe3d18ImagePoste18a2b52-a72c-4404-8dd1-5573227b0316.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\f2e4174f-b44c-452d-9c91-5be1b676d768ImagePost3168119f-bc45-4383-b3f8-d00b766d8107.jpeg" />
+      <_ContentIncludedByDefault Remove="wwwroot\post\f2e4174f-b44c-452d-9c91-5be1b676d768ImagePost614705de-dffd-41ff-a8ce-9ef669dc3adf.jpg" />
+    </ItemGroup>
+
+</Project>
